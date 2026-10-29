@@ -1,0 +1,32 @@
+# IngrediLens
+
+> IngrediLens is an iPhone app that reads the ingredient list on food and cosmetic labels (camera, photo, typed text or barcode) and highlights the allergens and ingredients the user chose, including “may contain” / trace statements. It works in English, Spanish, Portuguese, German, French and Italian, keeps all data on the device and needs no account. Free tier with 2 filters; Premium adds unlimited filters, family profiles, a reaction diary and printable school/caregiver and doctor summaries. A free restaurant allergy card is available in 15 languages. It is not a medical device and can miss things; users should always check the pack.
+
+- App Store: https://apps.apple.com/app/id6806595642
+- Support and FAQ: https://isler404.github.io/apps/ingredilens/
+- Privacy policy: https://isler404.github.io/apps/ingredilens/privacy.html
+
+## Guides
+
+- [All guides (hub)](https://isler404.github.io/apps/ingredilens/guides/): food allergy and label guides in English
+- [How to read allergen labels on food (EU, UK and US)](https://isler404.github.io/apps/ingredilens/guides/en/how-to-read-allergen-labels/): Where allergens appear on a food label in the EU, UK and US, what bold text and "Contains" mean, and a 6-step routine for checking every pack.
+- [What does "may contain" mean on food labels?](https://isler404.github.io/apps/ingredilens/guides/en/may-contain-traces-meaning/): "May contain", "traces of" and "made in a factory that handles" explained: why they are voluntary, what they do not tell you, and how to decide.
+- [The 14 EU allergens list, explained with examples](https://isler404.github.io/apps/ingredilens/guides/en/eu-14-allergens-list/): The 14 allergens that must be emphasised on EU and UK food labels (Annex II of Regulation 1169/2011), with examples, other names and legal exemptions.
+- [The 9 major food allergens in the US (FALCPA and sesame)](https://isler404.github.io/apps/ingredilens/guides/en/us-major-food-allergens/): The nine major US food allergens, how FALCPA and the FASTER Act require them on labels, which tree nuts count, and what US labels leave out.
+- [E-numbers explained, what the codes on food labels mean](https://isler404.github.io/apps/ingredilens/guides/en/e-numbers-explained/): What E-numbers are, how the number ranges work (colours, preservatives, emulsifiers), which ones come from allergens, and the warnings EU law requires.
+- [Hidden gluten on food labels, names to look for](https://isler404.github.io/apps/ingredilens/guides/en/hidden-gluten-names/): Other names for wheat, barley and rye on ingredient lists, which ingredients are usually fine, and what "gluten-free" legally means in the EU, UK and US.
+- [Hidden milk on labels, other names for dairy](https://isler404.github.io/apps/ingredilens/guides/en/hidden-milk-names/): Casein, whey, ghee, lactose and other names for milk on ingredient lists, the difference between milk allergy and lactose intolerance, and label traps.
+- [Hidden egg on food labels, other names for egg](https://isler404.github.io/apps/ingredilens/guides/en/hidden-egg-names/): Albumen, ovalbumin, lysozyme (E1105) and other names for egg on ingredient lists, foods where egg hides, and what to check on glazes, pasta and drinks.
+- [Hidden soy on food labels, other names for soya](https://isler404.github.io/apps/ingredilens/guides/en/hidden-soy-names/): Soy lecithin, edamame, miso, tempeh, TVP and other soya names on ingredient lists, plus which refined soy ingredients are exempt from allergen labels.
+- [Hidden peanut and tree nut names on food labels](https://isler404.github.io/apps/ingredilens/guides/en/hidden-peanut-tree-nut-names/): Other names for peanuts and tree nuts (arachis oil, marzipan, praline, gianduja), which nuts the EU and US list, and nut names on cosmetics.
+- [Sesame, mustard, celery and lupin, the overlooked allergens](https://isler404.github.io/apps/ingredilens/guides/en/sesame-mustard-celery-lupin/): Where sesame, mustard, celery and lupin hide (tahini, spice mixes, stock cubes, gluten-free flours), and how EU and US labels treat each one.
+- [Travelling with food allergies, restaurant allergy cards](https://isler404.github.io/apps/ingredilens/guides/en/restaurant-allergy-card-travel/): How to plan a trip with a food allergy, what a good restaurant allergy card says, how to use it with staff abroad, and what to pack for emergencies.
+- [Eating out with coeliac disease, a practical guide](https://isler404.github.io/apps/ingredilens/guides/en/eating-out-coeliac-disease/): Eating out gluten-free with coeliac disease: choosing a restaurant, questions to ask, and cross-contamination traps like fryers and pasta water.
+- [Food allergies at school and childcare, what to give carers](https://isler404.github.io/apps/ingredilens/guides/en/food-allergy-school-plan/): What to give a school, nursery or babysitter for a child with food allergies: action plan, auto-injectors, hidden names and safe snacks.
+- [Reading cosmetic INCI ingredient lists for sensitive skin](https://isler404.github.io/apps/ingredilens/guides/en/cosmetic-ingredients-sensitive-skin/): How to read INCI lists on skincare, which fragrance allergens EU law names, common skin irritants, and food allergens hidden in cosmetics.
+- [How to choose an allergen scanner app, a checklist](https://isler404.github.io/apps/ingredilens/guides/en/allergen-scanner-app-checklist/): Barcode database or label reading? What to check in an allergen scanner app, from allergen lists and "may contain" to languages and privacy.
+- [How to keep a food reaction diary to find triggers](https://isler404.github.io/apps/ingredilens/guides/en/food-reaction-diary/): What to note after a reaction to food or skincare, how a diary helps your doctor or allergist, and mistakes to avoid, like home allergy tests.
+
+## Reference
+
+- [E-number lookup](https://isler404.github.io/apps/ingredilens/e-kodlari/): EU food additive codes (E100–E1520) with their function and label notes
