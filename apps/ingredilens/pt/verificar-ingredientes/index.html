@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Verificar alergênicos na lista de ingredientes | IngrediLens</title><meta name="description" content="Cole a lista de ingredientes e veja onde aparecem seus alergênicos e os avisos de “pode conter”. Lê rótulos em 6 idiomas. Grátis, no seu navegador.">
+<link rel="canonical" href="https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/">
+<link rel="alternate" hreflang="en" href="https://isler404.github.io/apps/ingredilens/ingredient-checker/">
+<link rel="alternate" hreflang="es" href="https://isler404.github.io/apps/ingredilens/es/comprobar-ingredientes/">
+<link rel="alternate" hreflang="pt" href="https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/">
+<link rel="alternate" hreflang="de" href="https://isler404.github.io/apps/ingredilens/de/zutatenliste-pruefen/">
+<link rel="alternate" hreflang="fr" href="https://isler404.github.io/apps/ingredilens/fr/verifier-ingredients/">
+<link rel="alternate" hreflang="it" href="https://isler404.github.io/apps/ingredilens/it/controllo-ingredienti/">
+<link rel="alternate" hreflang="x-default" href="https://isler404.github.io/apps/ingredilens/ingredient-checker/">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/#app", "name": "Verificador de alergênicos na lista de ingredientes", "description": "Cole a lista de ingredientes e veja onde aparecem seus alergênicos e os avisos de “pode conter”. Lê rótulos em 6 idiomas. Grátis, no seu navegador.", "url": "https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/", "inLanguage": "pt", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "name": "IngrediLens", "logo": {"@type": "ImageObject", "url": "https://isler404.github.io/apps/ingredilens/icon.png"}}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "IngrediLens", "item": "https://isler404.github.io/apps/ingredilens/"}, {"@type": "ListItem", "position": 2, "name": "Verificador de alergênicos na lista de ingredientes"}]}, {"@type": "FAQPage", "inLanguage": "pt", "mainEntity": [{"@type": "Question", "name": "“Nenhuma correspondência” quer dizer que o produto serve para mim?", "acceptedAnswer": {"@type": "Answer", "text": "Não. Quer dizer apenas que o verificador não encontrou os nomes que conhece para os alergênicos escolhidos. Leia o rótulo inteiro, inclusive o aviso de alergênicos, e na dúvida não consuma o produto."}}, {"@type": "Question", "name": "Meu texto é enviado para algum lugar?", "acceptedAnswer": {"@type": "Answer", "text": "Não. A página e a lista de alergênicos carregam uma vez; a verificação acontece no seu navegador e nada do que você cola é enviado ou guardado."}}, {"@type": "Question", "name": "Por que os avisos de “pode conter” aparecem separados?", "acceptedAnswer": {"@type": "Answer", "text": "Eles indicam possível contato cruzado, não um ingrediente da receita. Muitas pessoas com alergia grave evitam esses produtos; siga a orientação do seu alergista."}}, {"@type": "Question", "name": "Quais alergênicos estão incluídos?", "acceptedAnswer": {"@type": "Answer", "text": "Os 14 alergênicos que os rótulos da UE devem destacar (cereais com glúten, crustáceos, ovo, peixe, amendoim, soja, leite, castanhas e nozes, aipo, mostarda, gergelim, sulfitos, tremoço e moluscos), mais lactose e carmim (E120)."}}]}]}</script>
+<style>
+.tool fieldset{border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:14px 0;background:var(--card)}
+.tool legend{font-weight:700;padding:0 6px}.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;background:var(--bg);font-size:.95rem}
+.chip input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.tool select,.tool textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.tool textarea{min-height:150px;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:10px 16px;background:var(--accent);color:#fff;cursor:pointer}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}.btn:disabled{opacity:.45;cursor:default}
+#il-card{background:#fff;color:#111;border:3px solid #b91c1c;border-radius:16px;padding:0 0 18px;overflow:hidden;font-size:1.25rem;line-height:1.45}
+#il-card .card-title{background:#b91c1c;color:#fff;font-weight:800;font-size:1.6rem;padding:14px 20px;margin:0 0 12px}
+#il-card p,#il-card ul{margin:10px 20px}#il-card .card-intro{font-weight:600}
+#il-card .card-list{font-weight:800;font-size:1.45rem;padding-inline-start:1.3em}#il-card .card-list li{margin:4px 0}
+#il-card .card-thanks{font-weight:600}#il-card .card-empty{color:#555;padding:24px 4px}
+#il-meaning{font-size:.95rem}#il-meaning p,#il-meaning ul{margin:6px 0}
+.status{min-height:1.4em;font-size:.95rem;color:var(--muted)}
+.group{border-radius:12px;padding:10px 14px;margin:10px 0;border:1px solid var(--line);background:var(--card)}
+.group h3{margin:0 0 6px}.res{margin:0;padding-left:1.2em}.g-contains{border-left:6px solid #dc2626}
+.g-may{border-left:6px solid #d97706}.g-check{border-left:6px dotted #2563eb}.g-none{border-left:6px solid var(--muted)}
+#il-marked{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;line-height:1.8}
+mark{border-radius:4px;padding:0 2px;color:inherit}.m-contains{background:rgba(220,38,38,.22);box-shadow:inset 0 -2px #dc2626}
+.m-may{background:rgba(217,119,6,.22);box-shadow:inset 0 -2px #d97706}.m-check{background:transparent;border-bottom:2px dotted #2563eb}
+.m-stmt{background:transparent;border-bottom:2px solid #d97706}
+.legend{font-size:.85rem}
+@media print{body{background:#fff}main>*:not(.tool){display:none!important}.tool>*:not(#il-out){display:none!important}
+#il-out>*:not(#il-card){display:none!important}#il-card{font-size:1.6rem;border-width:4px}#il-card .card-list{font-size:1.9rem}
+footer{display:none}}
+</style>
+<meta name="apple-itunes-app" content="app-id=6806595642">
+<meta property="og:type" content="website"><meta property="og:site_name" content="IngrediLens">
+<meta property="og:title" content="Verificar alergênicos na lista de ingredientes | IngrediLens"><meta property="og:description" content="Cole a lista de ingredientes e veja onde aparecem seus alergênicos e os avisos de “pode conter”. Lê rótulos em 6 idiomas. Grátis, no seu navegador.">
+<meta property="og:url" content="https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/"><meta property="og:image" content="https://isler404.github.io/apps/ingredilens/icon.png"><meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#fafaf7;--fg:#1d1d1f;--muted:#6e6e73;--card:#fff;--line:#e5e5ea;--accent:#0d9488;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f7;--muted:#a1a1a6;--card:#1c1c1e;--line:#2c2c2e;--accent:#2dd4bf;--warn:#fbbf24}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:2rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.25rem;margin:32px 0 8px}h3{font-size:1.05rem;margin:20px 0 6px}.muted{color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:12px 0}
+.card h3{margin:0 0 4px}.card p{margin:0}.note{border-left:4px solid var(--warn)}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;margin-top:8px}
+nav{font-size:.9rem;margin-bottom:12px}nav ol{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:4px}
+nav li+li:before{content:"›";margin-right:4px;color:var(--muted)}.langs{font-size:.9rem;margin:0 0 16px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--card)}
+blockquote{margin:12px 0;padding:8px 16px;border-left:4px solid var(--accent);background:var(--card);border-radius:0 10px 10px 0}
+ul.list{list-style:none;padding:0;margin:0}ul.list li{padding:8px 0;border-bottom:1px solid var(--line)}
+ul.list li span{display:block;font-size:.9rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+code{font-size:.9em}footer{margin-top:48px;font-size:.85rem;color:var(--muted)}
+</style></head>
+<body><main><nav aria-label="Breadcrumb"><ol><li><a href="/apps/ingredilens/">IngrediLens</a></li><li aria-current="page">Verificador de alergênicos na lista de ingredientes</li></ol></nav>
+<p class="langs muted">Também em: <a href="/apps/ingredilens/ingredient-checker/" hreflang="en" lang="en">English</a> · <a href="/apps/ingredilens/es/comprobar-ingredientes/" hreflang="es" lang="es">Español</a> · <a href="/apps/ingredilens/de/zutatenliste-pruefen/" hreflang="de" lang="de">Deutsch</a> · <a href="/apps/ingredilens/fr/verifier-ingredients/" hreflang="fr" lang="fr">Français</a> · <a href="/apps/ingredilens/it/controllo-ingredienti/" hreflang="it" lang="it">Italiano</a></p><h1>Verificador de alergênicos na lista de ingredientes</h1>
+<p>Cole ou digite a lista de ingredientes de um rótulo, marque seus alergênicos e o verificador destaca os ingredientes e os avisos de “pode conter” ou traços que coincidem. Lê rótulos em português, espanhol, inglês, alemão, francês e italiano, e tudo acontece no seu navegador.</p>
+<p class="card note"><strong>Não é um dispositivo médico. O verificador compara o texto colado com uma lista de nomes de alergênicos; ele pode deixar passar coisas e não vê a embalagem real. Leia sempre o rótulo do produto e siga a orientação do seu alergista.</strong></p>
+<div class="tool">
+<noscript><p class="card note">Esta ferramenta precisa de JavaScript. Nada é enviado: ela funciona no seu navegador.</p></noscript>
+<fieldset><legend><label for="il-text">1. Cole a lista de ingredientes</label></legend>
+<textarea id="il-text" placeholder="Ingredientes: farinha de trigo, açúcar, …" spellcheck="false" autocomplete="off"></textarea>
+<div class="btns"><button class="btn" id="il-check" type="button">Verificar</button><button class="btn alt" id="il-example" type="button">Ingredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal, soro de leite em pó, ovo em pó, sal. ALÉRGICOS: CONTÉM TRIGO, LEITE E OVO. PODE CONTER AMENDOIM E CASTANHA DE CAJU.</button><button class="btn alt" id="il-clear" type="button">Limpar</button></div></fieldset>
+<fieldset><legend>2. Seus alergênicos</legend><div class="chips" id="il-allergens"></div></fieldset>
+<div id="il-out">
+<h2>Resultado</h2>
+<div id="il-results" aria-live="polite"></div>
+<h3>O rótulo, destacado</h3>
+<p class="muted legend">Vermelho: nos ingredientes · Âmbar: “pode conter” / traços · Pontilhado: vale conferir</p>
+<div id="il-marked" hidden></div>
+</div>
+</div>
+<section><h2>Como usar</h2><ol><li>O texto é passado para minúsculas e os acentos são removidos, então “Lait écrémé” e “LAIT ECREME” correspondem à mesma entrada. A lista é dividida em vírgulas, parênteses, dois-pontos e ponto e vírgula.</li><li>Cada parte é comparada com 848 nomes e sinônimos de alergênicos em seis idiomas do banco de ingredientes do IngrediLens, além de palavras comuns como manteiga, creme de leite e tofu.</li><li>Frases como “pode conter”, “traços de”, “may contain”, “kann Spuren enthalten”, “peut contenir” ou “può contenere tracce” são lidas à parte e aparecem em âmbar.</li><li>Alegações como “sem glúten” ou “zero lactose” são mostradas, mas nunca escondem uma correspondência nos ingredientes.</li></ol></section>
+<section><h2>O que pode passar</h2><ul><li>Nomes incomuns, abreviações, erros de digitação e marcas.</li><li>Alergênicos que o rótulo não informa ou que aparecem só em outra parte da embalagem.</li><li>Rótulos em idiomas diferentes dos seis citados.</li><li>Regras que mudam de país para país: o verificador não sabe onde o produto foi vendido.</li></ul></section>
+<div class="card"><h2 style="margin:0 0 6px;font-size:1.1rem">Escaneie rótulos com a câmera</h2><p>O IngrediLens lê a lista de ingredientes direto da câmera do iPhone, compara com mais de 24.000 ingredientes e destaca seus alergênicos e os avisos de “pode conter”. O Premium adiciona perfis para toda a família. Grátis para começar, sem conta, e seus dados ficam no seu aparelho.</p><a class="cta" href="https://apps.apple.com/app/id6806595642">Baixar na App Store</a></div>
+<section><h2 id="faq">Perguntas frequentes</h2><div class="card"><h3>“Nenhuma correspondência” quer dizer que o produto serve para mim?</h3><p>Não. Quer dizer apenas que o verificador não encontrou os nomes que conhece para os alergênicos escolhidos. Leia o rótulo inteiro, inclusive o aviso de alergênicos, e na dúvida não consuma o produto.</p></div><div class="card"><h3>Meu texto é enviado para algum lugar?</h3><p>Não. A página e a lista de alergênicos carregam uma vez; a verificação acontece no seu navegador e nada do que você cola é enviado ou guardado.</p></div><div class="card"><h3>Por que os avisos de “pode conter” aparecem separados?</h3><p>Eles indicam possível contato cruzado, não um ingrediente da receita. Muitas pessoas com alergia grave evitam esses produtos; siga a orientação do seu alergista.</p></div><div class="card"><h3>Quais alergênicos estão incluídos?</h3><p>Os 14 alergênicos que os rótulos da UE devem destacar (cereais com glúten, crustáceos, ovo, peixe, amendoim, soja, leite, castanhas e nozes, aipo, mostarda, gergelim, sulfitos, tremoço e moluscos), mais lactose e carmim (E120).</p></div></section>
+<section><h2>Guias relacionados</h2><ul class="list"><li><a href="/apps/ingredilens/guides/pt/como-ler-rotulo-de-alergenicos/">Como ler o rótulo de alergênicos (Brasil, Portugal, EUA)</a><span>Onde aparecem os alergênicos no rótulo, o que significam &#x27;ALÉRGICOS: CONTÉM&#x27; e &#x27;PODE CONTER&#x27; segundo a Anvisa e o que muda na Europa e nos EUA.</span></li><li><a href="/apps/ingredilens/guides/pt/pode-conter-tracos-o-que-significa/">&quot;ALÉRGICOS: PODE CONTER&quot;: o que significa de verdade</a><span>O que quer dizer &#x27;pode conter&#x27; no rótulo, quando a Anvisa permite usar a frase, como é na Europa e nos EUA e como decidir com o seu alergista.</span></li><li><a href="/apps/ingredilens/guides/pt/leite-escondido-no-rotulo-alergia-lactose/">Leite escondido no rótulo: APLV ou intolerância à lactose?</a><span>Nomes que indicam leite no rótulo (caseína, soro, composto lácteo…), a diferença entre alergia à proteína do leite (APLV) e intolerância à lactose.</span></li><li><a href="/apps/ingredilens/guides/pt/gluten-escondido-no-rotulo-contem-gluten/">Glúten escondido no rótulo: nomes e &#x27;não contém glúten&#x27;</a><span>Ingredientes que podem ter glúten (malte, semolina, triguilho…), o que dizem &#x27;contém glúten&#x27; e &#x27;não contém glúten&#x27; (Lei 10.674/2003) e as regras na Europa.</span></li><li><a href="/apps/ingredilens/guides/pt/amendoim-castanhas-escondidos-no-rotulo/">Amendoim e castanhas escondidos no rótulo: guia completo</a><span>Nomes de amendoim, castanhas e nozes no rótulo, onde se escondem (paçoca, pé de moleque, pesto, praliné) e como a Anvisa e a UE exigem a declaração.</span></li><li><a href="/apps/ingredilens/guides/pt/14-alergenicos-uniao-europeia/">Os 14 alergênicos obrigatórios na União Europeia</a><span>Lista dos 14 alergênicos do anexo II do Regulamento 1169/2011, válida em Portugal, com exemplos e comparação com a lista da Anvisa no Brasil.</span></li></ul></section>
+<p class="card note muted">Informação geral, não é orientação médica. Leia sempre o rótulo do próprio produto e siga a orientação do seu médico ou alergista. Diante de sinais de anafilaxia, use a caneta de adrenalina, se houver, e ligue para o serviço de emergência.</p>
+<script type="application/json" id="il-ui">{"step1": "1. Cole a lista de ingredientes", "placeholder": "Ingredientes: farinha de trigo, açúcar, …", "step2": "2. Seus alergênicos", "check": "Verificar", "example": "Ingredientes: farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal, soro de leite em pó, ovo em pó, sal. ALÉRGICOS: CONTÉM TRIGO, LEITE E OVO. PODE CONTER AMENDOIM E CASTANHA DE CAJU.", "clear": "Limpar", "results": "Resultado", "label": "O rótulo, destacado", "contains": "Nos ingredientes", "may": "“Pode conter” / traços", "check_h": "Vale conferir", "none": "Nenhuma correspondência com os alergênicos que você escolheu.", "noneNote": "Isso não significa que o produto não os contenha: o verificador pode deixar passar nomes incomuns, erros de digitação e o que o rótulo não informa. Leia sempre a embalagem.", "pick": "Marque pelo menos um alergênico.", "empty": "Cole uma lista de ingredientes para verificar.", "free": "O rótulo também diz", "freeNote": "Uma alegação “sem…” nunca esconde uma correspondência nos ingredientes.", "other": "Outros alergênicos citados (fora da sua lista)", "legend": "Vermelho: nos ingredientes · Âmbar: “pode conter” / traços · Pontilhado: vale conferir", "notes": {"lactoseFromMilk": "ingredientes lácteos costumam conter lactose", "lecithin": "a lecitina costuma ser de soja, mas pode ser de girassol ou canola", "maltodextrin": "costuma ser de milho; o rótulo deve dizer quando vem do trigo", "oats": "nos rótulos da UE a aveia conta como cereal com glúten"}, "lang": "pt", "names": {"gluten": "Glúten", "milk": "Leite e derivados", "lactose": "Lactose", "egg": "Ovo", "peanuts": "Amendoim", "tree_nuts": "Frutos de casca rija / castanhas", "soy": "Soja", "sesame": "Sésamo / gergelim", "fish": "Peixe", "crustaceans": "Crustáceos", "molluscs": "Moluscos", "mustard": "Mostarda", "celery": "Aipo", "lupin": "Tremoço", "sulfites": "Sulfitos", "carmine": "Carmim / cochonilha"}}</script><script src="/apps/ingredilens/ingredient-checker/checker.js" defer></script>
+<footer>© 2026 Enescan İşler · <a href="/apps/ingredilens/">IngrediLens</a> · <a href="/apps/ingredilens/guides/">Guias</a> · <a href="/apps/ingredilens/privacy.html">Privacidade</a></footer></main></body></html>

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tarjeta de alergias gratis para restaurantes, 15 idiomas | IngrediLens</title><meta name="description" content="Marca tus alérgenos, elige un idioma e imprime o guarda una tarjeta de alergias clara para el personal del restaurante. Gratis, sin registro.">
+<link rel="canonical" href="https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/">
+<link rel="alternate" hreflang="en" href="https://isler404.github.io/apps/ingredilens/allergy-card/">
+<link rel="alternate" hreflang="es" href="https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/">
+<link rel="alternate" hreflang="pt" href="https://isler404.github.io/apps/ingredilens/pt/cartao-de-alergia/">
+<link rel="alternate" hreflang="de" href="https://isler404.github.io/apps/ingredilens/de/allergiekarte/">
+<link rel="alternate" hreflang="fr" href="https://isler404.github.io/apps/ingredilens/fr/carte-allergies/">
+<link rel="alternate" hreflang="it" href="https://isler404.github.io/apps/ingredilens/it/scheda-allergie/">
+<link rel="alternate" hreflang="x-default" href="https://isler404.github.io/apps/ingredilens/allergy-card/">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/#app", "name": "Generador de tarjeta de alergias para restaurantes", "description": "Marca tus alérgenos, elige un idioma e imprime o guarda una tarjeta de alergias clara para el personal del restaurante. Gratis, sin registro.", "url": "https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/", "inLanguage": "es", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "name": "IngrediLens", "logo": {"@type": "ImageObject", "url": "https://isler404.github.io/apps/ingredilens/icon.png"}}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "IngrediLens", "item": "https://isler404.github.io/apps/ingredilens/"}, {"@type": "ListItem", "position": 2, "name": "Generador de tarjeta de alergias para restaurantes"}]}, {"@type": "FAQPage", "inLanguage": "es", "mainEntity": [{"@type": "Question", "name": "¿La tarjeta de alergias es realmente gratis?", "acceptedAnswer": {"@type": "Answer", "text": "Sí. No hay registro, ni publicidad, ni seguimiento. La página funciona en tu navegador y recuerda tus elecciones solo en este dispositivo."}}, {"@type": "Question", "name": "¿Puedo fiarme de la traducción?", "acceptedAnswer": {"@type": "Answer", "text": "Las frases se escribieron con cuidado, pero una tarjeta no sustituye a una conversación. Fíjate en si el personal la ha entendido, pide que lo consulten con cocina y, si dudas, elige otra cosa. Los idiomas marcados con “confírmalo con el personal” aún esperan la revisión de un hablante nativo."}}, {"@type": "Question", "name": "¿Sirve para la celiaquía?", "acceptedAnswer": {"@type": "Answer", "text": "Marca “Gluten”: la tarjeta nombra el trigo, la cebada y el centeno y pregunta por trazas, aceite y utensilios compartidos, algo que también importa a las personas celíacas."}}, {"@type": "Question", "name": "¿Qué hago en una emergencia?", "acceptedAnswer": {"@type": "Answer", "text": "La tarjeta no es un consejo médico ni sustituye tu plan de emergencia. Ante signos de anafilaxia, usa el autoinyector de adrenalina si lo hay y llama a emergencias (112 en la UE)."}}]}]}</script>
+<style>
+.tool fieldset{border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:14px 0;background:var(--card)}
+.tool legend{font-weight:700;padding:0 6px}.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;background:var(--bg);font-size:.95rem}
+.chip input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.tool select,.tool textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.tool textarea{min-height:150px;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:10px 16px;background:var(--accent);color:#fff;cursor:pointer}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}.btn:disabled{opacity:.45;cursor:default}
+#il-card{background:#fff;color:#111;border:3px solid #b91c1c;border-radius:16px;padding:0 0 18px;overflow:hidden;font-size:1.25rem;line-height:1.45}
+#il-card .card-title{background:#b91c1c;color:#fff;font-weight:800;font-size:1.6rem;padding:14px 20px;margin:0 0 12px}
+#il-card p,#il-card ul{margin:10px 20px}#il-card .card-intro{font-weight:600}
+#il-card .card-list{font-weight:800;font-size:1.45rem;padding-inline-start:1.3em}#il-card .card-list li{margin:4px 0}
+#il-card .card-thanks{font-weight:600}#il-card .card-empty{color:#555;padding:24px 4px}
+#il-meaning{font-size:.95rem}#il-meaning p,#il-meaning ul{margin:6px 0}
+.status{min-height:1.4em;font-size:.95rem;color:var(--muted)}
+.group{border-radius:12px;padding:10px 14px;margin:10px 0;border:1px solid var(--line);background:var(--card)}
+.group h3{margin:0 0 6px}.res{margin:0;padding-left:1.2em}.g-contains{border-left:6px solid #dc2626}
+.g-may{border-left:6px solid #d97706}.g-check{border-left:6px dotted #2563eb}.g-none{border-left:6px solid var(--muted)}
+#il-marked{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;line-height:1.8}
+mark{border-radius:4px;padding:0 2px;color:inherit}.m-contains{background:rgba(220,38,38,.22);box-shadow:inset 0 -2px #dc2626}
+.m-may{background:rgba(217,119,6,.22);box-shadow:inset 0 -2px #d97706}.m-check{background:transparent;border-bottom:2px dotted #2563eb}
+.m-stmt{background:transparent;border-bottom:2px solid #d97706}
+.legend{font-size:.85rem}
+@media print{body{background:#fff}main>*:not(.tool){display:none!important}.tool>*:not(#il-out){display:none!important}
+#il-out>*:not(#il-card){display:none!important}#il-card{font-size:1.6rem;border-width:4px}#il-card .card-list{font-size:1.9rem}
+footer{display:none}}
+</style>
+<meta name="apple-itunes-app" content="app-id=6806595642">
+<meta property="og:type" content="website"><meta property="og:site_name" content="IngrediLens">
+<meta property="og:title" content="Tarjeta de alergias gratis para restaurantes, 15 idiomas | IngrediLens"><meta property="og:description" content="Marca tus alérgenos, elige un idioma e imprime o guarda una tarjeta de alergias clara para el personal del restaurante. Gratis, sin registro.">
+<meta property="og:url" content="https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/"><meta property="og:image" content="https://isler404.github.io/apps/ingredilens/icon.png"><meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#fafaf7;--fg:#1d1d1f;--muted:#6e6e73;--card:#fff;--line:#e5e5ea;--accent:#0d9488;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f7;--muted:#a1a1a6;--card:#1c1c1e;--line:#2c2c2e;--accent:#2dd4bf;--warn:#fbbf24}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:2rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.25rem;margin:32px 0 8px}h3{font-size:1.05rem;margin:20px 0 6px}.muted{color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:12px 0}
+.card h3{margin:0 0 4px}.card p{margin:0}.note{border-left:4px solid var(--warn)}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;margin-top:8px}
+nav{font-size:.9rem;margin-bottom:12px}nav ol{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:4px}
+nav li+li:before{content:"›";margin-right:4px;color:var(--muted)}.langs{font-size:.9rem;margin:0 0 16px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--card)}
+blockquote{margin:12px 0;padding:8px 16px;border-left:4px solid var(--accent);background:var(--card);border-radius:0 10px 10px 0}
+ul.list{list-style:none;padding:0;margin:0}ul.list li{padding:8px 0;border-bottom:1px solid var(--line)}
+ul.list li span{display:block;font-size:.9rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+code{font-size:.9em}footer{margin-top:48px;font-size:.85rem;color:var(--muted)}
+</style></head>
+<body><main><nav aria-label="Breadcrumb"><ol><li><a href="/apps/ingredilens/">IngrediLens</a></li><li aria-current="page">Generador de tarjeta de alergias para restaurantes</li></ol></nav>
+<p class="langs muted">También en: <a href="/apps/ingredilens/allergy-card/" hreflang="en" lang="en">English</a> · <a href="/apps/ingredilens/pt/cartao-de-alergia/" hreflang="pt" lang="pt">Português</a> · <a href="/apps/ingredilens/de/allergiekarte/" hreflang="de" lang="de">Deutsch</a> · <a href="/apps/ingredilens/fr/carte-allergies/" hreflang="fr" lang="fr">Français</a> · <a href="/apps/ingredilens/it/scheda-allergie/" hreflang="it" lang="it">Italiano</a></p><h1>Generador de tarjeta de alergias para restaurantes</h1>
+<p>Elige tus alérgenos y el idioma del lugar donde vas a comer. La tarjeta pide al personal que no los use en tu plato, ni siquiera en trazas, y que no compartan aceite ni utensilios. Imprímela, guárdala como imagen o copia el texto. Gratis, sin registro, y lo que eliges no sale de tu navegador.</p>
+<div class="tool">
+<noscript><p class="card note">Esta herramienta necesita JavaScript. No se envía nada: funciona en tu navegador.</p></noscript>
+<fieldset><legend>1. Tus alérgenos</legend><div class="chips" id="il-allergens"></div></fieldset>
+<fieldset><legend><label for="il-lang">2. Idioma de la tarjeta</label></legend><select id="il-lang"></select></fieldset>
+<h2>3. Tu tarjeta</h2>
+<div id="il-out">
+<div id="il-card" aria-live="polite"></div>
+<p class="card note" id="il-review" hidden>Esta traducción aún está pendiente de revisión por un hablante nativo. Muéstrala y asegúrate de que el personal la ha entendido.</p>
+<div class="btns"><button class="btn" id="il-print" type="button">Imprimir</button><button class="btn" id="il-image" type="button">Guardar como imagen</button><button class="btn alt" id="il-copy" type="button">Copiar texto</button><button class="btn alt" id="il-share" type="button">Compartir</button></div>
+<p class="status" id="il-status" role="status"></p>
+<details class="card" id="il-meaning" hidden><summary>Qué dice la tarjeta</summary><div id="il-meaning-body"></div></details>
+<p class="muted" style="font-size:.9rem">Tus elecciones se guardan solo en este dispositivo.</p>
+</div>
+</div>
+<section><h2>Cómo usarla</h2><ol><li>Marca todos los alérgenos que debes evitar. Están los 14 que la ley de la UE obliga a indicar en las etiquetas, más la lactosa y el carmín (E120).</li><li>Elige el idioma del lugar donde vas a comer. Los idiomas marcados con “confírmalo con el personal” todavía no los ha revisado un hablante nativo.</li><li>Imprime la tarjeta o guárdala como imagen en el móvil. Una copia en papel sirve aunque te quedes sin batería.</li><li>Enséñala antes de pedir y pide que lo consulten con cocina. Si algo no queda claro, elige otro plato.</li></ol></section>
+<section><h2>Qué dice la tarjeta</h2><p>Un título breve, la frase “Tengo una alergia grave a los siguientes alimentos”, tus alérgenos y la petición de que no estén en tu comida, ni en trazas, ni a través de aceite o utensilios compartidos. El texto es el de la tarjeta de alergias de la app IngrediLens, redactado idioma por idioma; nada se traduce automáticamente mientras usas esta página.</p></section>
+<div class="card"><h2 style="margin:0 0 6px;font-size:1.1rem">Llévala en el móvil, sin conexión</h2><p>IngrediLens incluye la misma tarjeta de alergias gratis y funciona sin conexión. La app también lee las etiquetas con la cámara del iPhone y resalta tus alérgenos y los avisos de “puede contener”.</p><a class="cta" href="https://apps.apple.com/app/id6806595642">Descargar en el App Store</a></div>
+<section><h2 id="faq">Preguntas frecuentes</h2><div class="card"><h3>¿La tarjeta de alergias es realmente gratis?</h3><p>Sí. No hay registro, ni publicidad, ni seguimiento. La página funciona en tu navegador y recuerda tus elecciones solo en este dispositivo.</p></div><div class="card"><h3>¿Puedo fiarme de la traducción?</h3><p>Las frases se escribieron con cuidado, pero una tarjeta no sustituye a una conversación. Fíjate en si el personal la ha entendido, pide que lo consulten con cocina y, si dudas, elige otra cosa. Los idiomas marcados con “confírmalo con el personal” aún esperan la revisión de un hablante nativo.</p></div><div class="card"><h3>¿Sirve para la celiaquía?</h3><p>Marca “Gluten”: la tarjeta nombra el trigo, la cebada y el centeno y pregunta por trazas, aceite y utensilios compartidos, algo que también importa a las personas celíacas.</p></div><div class="card"><h3>¿Qué hago en una emergencia?</h3><p>La tarjeta no es un consejo médico ni sustituye tu plan de emergencia. Ante signos de anafilaxia, usa el autoinyector de adrenalina si lo hay y llama a emergencias (112 en la UE).</p></div></section>
+<section><h2>Guías relacionadas</h2><ul class="list"><li><a href="/apps/ingredilens/guides/es/tarjeta-de-alergias-para-viajar/">Viajar con alergias: tarjeta de alergias en 15 idiomas</a><span>Cómo preparar un viaje con alergia alimentaria: tarjeta para restaurantes en el idioma local, medicación, avión, etiquetas extranjeras y emergencias.</span></li><li><a href="/apps/ingredilens/guides/es/comer-fuera-siendo-celiaco/">Comer fuera siendo celíaco: qué preguntar en el restaurante</a><span>Cómo comer fuera de casa con celiaquía: contacto cruzado en cocina, preguntas clave, derechos en España y la UE y menús sin TACC en Argentina.</span></li><li><a href="/apps/ingredilens/guides/es/puede-contener-trazas-que-significa/">«Puede contener trazas»: qué significa de verdad</a><span>Qué quieren decir &#x27;puede contener&#x27;, &#x27;trazas&#x27; o &#x27;elaborado en una fábrica que…&#x27; en la etiqueta, qué dice la ley en la UE, México y Argentina y cómo decidir.</span></li><li><a href="/apps/ingredilens/guides/es/alergias-alimentarias-en-el-colegio/">Alergias alimentarias en el colegio: qué dar al centro</a><span>Qué documentos y medicación entregar al colegio o la guardería si tu hijo tiene alergia alimentaria y qué dice la ley en España.</span></li></ul></section>
+<p class="card note muted">Información general, no es consejo médico. Lee siempre la etiqueta del propio producto y sigue las indicaciones de tu médico o alergólogo. Ante signos de anafilaxia, usa el autoinyector de adrenalina si lo hay y llama a emergencias.</p>
+<script type="application/json" id="il-ui">{"step1": "1. Tus alérgenos", "step2": "2. Idioma de la tarjeta", "step3": "3. Tu tarjeta", "print": "Imprimir", "image": "Guardar como imagen", "copy": "Copiar texto", "share": "Compartir", "copied": "Copiado.", "failed": "No ha funcionado en este navegador.", "none": "Marca al menos un alérgeno para completar la tarjeta.", "reviewTag": "confírmalo con el personal", "review": "Esta traducción aún está pendiente de revisión por un hablante nativo. Muéstrala y asegúrate de que el personal la ha entendido.", "meaning": "Qué dice la tarjeta", "remember": "Tus elecciones se guardan solo en este dispositivo.", "lang": "es", "defaultTarget": "en"}</script><script src="/apps/ingredilens/allergy-card/card.js" defer></script>
+<footer>© 2026 Enescan İşler · <a href="/apps/ingredilens/">IngrediLens</a> · <a href="/apps/ingredilens/guides/">Guías</a> · <a href="/apps/ingredilens/privacy.html">Privacidad</a></footer></main></body></html>

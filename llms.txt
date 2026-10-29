@@ -35,6 +35,13 @@
 - [Français](https://isler404.github.io/apps/ingredilens/guides/fr/): Guides allergies alimentaires et étiquettes
 - [Italiano](https://isler404.github.io/apps/ingredilens/guides/it/): Guide su allergie alimentari ed etichette
 
+## Free tools
+
+- [Free restaurant allergy card (15 languages)](https://isler404.github.io/apps/ingredilens/allergy-card/): Make, print or save a card that explains your food allergies to restaurant staff abroad.
+- [Ingredient list allergen checker](https://isler404.github.io/apps/ingredilens/ingredient-checker/): Paste an ingredient list and see which of your allergens and “may contain” warnings it mentions.
+- Allergy card in other languages: [Español](https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/), [Português](https://isler404.github.io/apps/ingredilens/pt/cartao-de-alergia/), [Deutsch](https://isler404.github.io/apps/ingredilens/de/allergiekarte/), [Français](https://isler404.github.io/apps/ingredilens/fr/carte-allergies/), [Italiano](https://isler404.github.io/apps/ingredilens/it/scheda-allergie/)
+- Ingredient checker in other languages: [Español](https://isler404.github.io/apps/ingredilens/es/comprobar-ingredientes/), [Português](https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/), [Deutsch](https://isler404.github.io/apps/ingredilens/de/zutatenliste-pruefen/), [Français](https://isler404.github.io/apps/ingredilens/fr/verifier-ingredients/), [Italiano](https://isler404.github.io/apps/ingredilens/it/controllo-ingredienti/)
+
 ## Reference
 
 - [E-number lookup](https://isler404.github.io/apps/ingredilens/e-kodlari/): EU food additive codes (E100–E1520) with their function and label notes

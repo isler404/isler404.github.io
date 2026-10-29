@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ingredient list allergen checker (free) | IngrediLens</title><meta name="description" content="Paste an ingredient list and see where your allergens and “may contain” warnings appear. Reads English, Spanish, Portuguese, German, French and Italian.">
+<link rel="canonical" href="https://isler404.github.io/apps/ingredilens/ingredient-checker/">
+<link rel="alternate" hreflang="en" href="https://isler404.github.io/apps/ingredilens/ingredient-checker/">
+<link rel="alternate" hreflang="es" href="https://isler404.github.io/apps/ingredilens/es/comprobar-ingredientes/">
+<link rel="alternate" hreflang="pt" href="https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/">
+<link rel="alternate" hreflang="de" href="https://isler404.github.io/apps/ingredilens/de/zutatenliste-pruefen/">
+<link rel="alternate" hreflang="fr" href="https://isler404.github.io/apps/ingredilens/fr/verifier-ingredients/">
+<link rel="alternate" hreflang="it" href="https://isler404.github.io/apps/ingredilens/it/controllo-ingredienti/">
+<link rel="alternate" hreflang="x-default" href="https://isler404.github.io/apps/ingredilens/ingredient-checker/">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="pt_BR">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebApplication", "@id": "https://isler404.github.io/apps/ingredilens/ingredient-checker/#app", "name": "Ingredient list allergen checker", "description": "Paste an ingredient list and see where your allergens and “may contain” warnings appear. Reads English, Spanish, Portuguese, German, French and Italian.", "url": "https://isler404.github.io/apps/ingredilens/ingredient-checker/", "inLanguage": "en", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any (web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}, "publisher": {"@type": "Organization", "name": "IngrediLens", "logo": {"@type": "ImageObject", "url": "https://isler404.github.io/apps/ingredilens/icon.png"}}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "IngrediLens", "item": "https://isler404.github.io/apps/ingredilens/"}, {"@type": "ListItem", "position": 2, "name": "Ingredient list allergen checker"}]}, {"@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Does “no matches” mean the product is safe for me?", "acceptedAnswer": {"@type": "Answer", "text": "No. It only means the checker did not find the names it knows for the allergens you chose. Read the whole label, including the allergen statement, and if you are unsure, do not eat the product."}}, {"@type": "Question", "name": "Is my text sent anywhere?", "acceptedAnswer": {"@type": "Answer", "text": "No. The page and its allergen list load once; the check runs in your browser and nothing you paste is sent or stored."}}, {"@type": "Question", "name": "Why are “may contain” warnings shown separately?", "acceptedAnswer": {"@type": "Answer", "text": "They describe possible cross-contact, not a recipe ingredient. Many people with severe allergies avoid these products; follow your allergist's advice."}}, {"@type": "Question", "name": "Which allergens does it cover?", "acceptedAnswer": {"@type": "Answer", "text": "The 14 allergens that EU labels must emphasise (cereals containing gluten, crustaceans, egg, fish, peanuts, soy, milk, tree nuts, celery, mustard, sesame, sulphites, lupin and molluscs), plus lactose and carmine (E120)."}}]}]}</script>
+<style>
+.tool fieldset{border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:14px 0;background:var(--card)}
+.tool legend{font-weight:700;padding:0 6px}.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer;background:var(--bg);font-size:.95rem}
+.chip input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
+.tool select,.tool textarea{width:100%;font:inherit;padding:10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.tool textarea{min-height:150px;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.btn{font:inherit;font-weight:600;border:0;border-radius:10px;padding:10px 16px;background:var(--accent);color:#fff;cursor:pointer}
+.btn.alt{background:transparent;color:var(--accent);border:1px solid var(--accent)}.btn:disabled{opacity:.45;cursor:default}
+#il-card{background:#fff;color:#111;border:3px solid #b91c1c;border-radius:16px;padding:0 0 18px;overflow:hidden;font-size:1.25rem;line-height:1.45}
+#il-card .card-title{background:#b91c1c;color:#fff;font-weight:800;font-size:1.6rem;padding:14px 20px;margin:0 0 12px}
+#il-card p,#il-card ul{margin:10px 20px}#il-card .card-intro{font-weight:600}
+#il-card .card-list{font-weight:800;font-size:1.45rem;padding-inline-start:1.3em}#il-card .card-list li{margin:4px 0}
+#il-card .card-thanks{font-weight:600}#il-card .card-empty{color:#555;padding:24px 4px}
+#il-meaning{font-size:.95rem}#il-meaning p,#il-meaning ul{margin:6px 0}
+.status{min-height:1.4em;font-size:.95rem;color:var(--muted)}
+.group{border-radius:12px;padding:10px 14px;margin:10px 0;border:1px solid var(--line);background:var(--card)}
+.group h3{margin:0 0 6px}.res{margin:0;padding-left:1.2em}.g-contains{border-left:6px solid #dc2626}
+.g-may{border-left:6px solid #d97706}.g-check{border-left:6px dotted #2563eb}.g-none{border-left:6px solid var(--muted)}
+#il-marked{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;line-height:1.8}
+mark{border-radius:4px;padding:0 2px;color:inherit}.m-contains{background:rgba(220,38,38,.22);box-shadow:inset 0 -2px #dc2626}
+.m-may{background:rgba(217,119,6,.22);box-shadow:inset 0 -2px #d97706}.m-check{background:transparent;border-bottom:2px dotted #2563eb}
+.m-stmt{background:transparent;border-bottom:2px solid #d97706}
+.legend{font-size:.85rem}
+@media print{body{background:#fff}main>*:not(.tool){display:none!important}.tool>*:not(#il-out){display:none!important}
+#il-out>*:not(#il-card){display:none!important}#il-card{font-size:1.6rem;border-width:4px}#il-card .card-list{font-size:1.9rem}
+footer{display:none}}
+</style>
+<meta name="apple-itunes-app" content="app-id=6806595642">
+<meta property="og:type" content="website"><meta property="og:site_name" content="IngrediLens">
+<meta property="og:title" content="Ingredient list allergen checker (free) | IngrediLens"><meta property="og:description" content="Paste an ingredient list and see where your allergens and “may contain” warnings appear. Reads English, Spanish, Portuguese, German, French and Italian.">
+<meta property="og:url" content="https://isler404.github.io/apps/ingredilens/ingredient-checker/"><meta property="og:image" content="https://isler404.github.io/apps/ingredilens/icon.png"><meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--bg:#fafaf7;--fg:#1d1d1f;--muted:#6e6e73;--card:#fff;--line:#e5e5ea;--accent:#0d9488;--warn:#b45309}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--fg:#f2f2f7;--muted:#a1a1a6;--card:#1c1c1e;--line:#2c2c2e;--accent:#2dd4bf;--warn:#fbbf24}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}h1{font-size:2rem;line-height:1.2;margin:0 0 8px}
+h2{font-size:1.25rem;margin:32px 0 8px}h3{font-size:1.05rem;margin:20px 0 6px}.muted{color:var(--muted)}a{color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:12px 0}
+.card h3{margin:0 0 4px}.card p{margin:0}.note{border-left:4px solid var(--warn)}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:600;margin-top:8px}
+nav{font-size:.9rem;margin-bottom:12px}nav ol{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:4px}
+nav li+li:before{content:"›";margin-right:4px;color:var(--muted)}.langs{font-size:.9rem;margin:0 0 16px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--card)}
+blockquote{margin:12px 0;padding:8px 16px;border-left:4px solid var(--accent);background:var(--card);border-radius:0 10px 10px 0}
+ul.list{list-style:none;padding:0;margin:0}ul.list li{padding:8px 0;border-bottom:1px solid var(--line)}
+ul.list li span{display:block;font-size:.9rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+code{font-size:.9em}footer{margin-top:48px;font-size:.85rem;color:var(--muted)}
+</style></head>
+<body><main><nav aria-label="Breadcrumb"><ol><li><a href="/apps/ingredilens/">IngrediLens</a></li><li aria-current="page">Ingredient list allergen checker</li></ol></nav>
+<p class="langs muted">Also in: <a href="/apps/ingredilens/es/comprobar-ingredientes/" hreflang="es" lang="es">Español</a> · <a href="/apps/ingredilens/pt/verificar-ingredientes/" hreflang="pt" lang="pt">Português</a> · <a href="/apps/ingredilens/de/zutatenliste-pruefen/" hreflang="de" lang="de">Deutsch</a> · <a href="/apps/ingredilens/fr/verifier-ingredients/" hreflang="fr" lang="fr">Français</a> · <a href="/apps/ingredilens/it/controllo-ingredienti/" hreflang="it" lang="it">Italiano</a></p><h1>Ingredient list allergen checker</h1>
+<p>Paste or type the ingredient list from a food label, tick your allergens, and the checker highlights the ingredients and “may contain” or traces statements that match. It reads labels in English, Spanish, Portuguese, German, French and Italian, and everything happens in your browser.</p>
+<p class="card note"><strong>Not a medical device. The checker compares the text you paste with a list of allergen names; it can miss things and cannot see the real pack. Always read the label on the product and follow your allergist&#x27;s advice.</strong></p>
+<div class="tool">
+<noscript><p class="card note">This tool needs JavaScript. Nothing is sent anywhere: it runs in your browser.</p></noscript>
+<fieldset><legend><label for="il-text">1. Paste the ingredient list</label></legend>
+<textarea id="il-text" placeholder="Ingredients: wheat flour, sugar, …" spellcheck="false" autocomplete="off"></textarea>
+<div class="btns"><button class="btn" id="il-check" type="button">Check</button><button class="btn alt" id="il-example" type="button">Ingredients: sugar, wheat flour, palm oil, cocoa butter, whole milk powder, hazelnuts (5%), emulsifier: soy lecithin, raising agent (sodium bicarbonate), salt. May contain traces of peanuts and other nuts.</button><button class="btn alt" id="il-clear" type="button">Clear</button></div></fieldset>
+<fieldset><legend>2. Your allergens</legend><div class="chips" id="il-allergens"></div></fieldset>
+<div id="il-out">
+<h2>Results</h2>
+<div id="il-results" aria-live="polite"></div>
+<h3>The label, highlighted</h3>
+<p class="muted legend">Red: in the ingredients · Amber: “may contain” / traces · Dotted: worth checking</p>
+<div id="il-marked" hidden></div>
+</div>
+</div>
+<section><h2>How to use it</h2><ol><li>The text is lowercased and accents are removed, so “Lait écrémé” and “LAIT ECREME” match the same entry. The list is split at commas, brackets, colons and semicolons.</li><li>Each part is compared with 848 allergen names and synonyms in six languages from the IngrediLens ingredient database, plus everyday words such as butter, cream and tofu.</li><li>Sentences such as “may contain”, “traces of”, “puede contener”, “kann Spuren enthalten”, “peut contenir” or “può contenere tracce” are read separately and shown in amber.</li><li>Free-from claims such as “gluten-free” or “sin lactosa” are listed, but they never hide a match found in the ingredients.</li></ol></section>
+<section><h2>What it can miss</h2><ul><li>Unusual names, abbreviations, spelling mistakes and brand names.</li><li>Allergens the label does not list, or that appear only on another part of the pack.</li><li>Labels in other languages than the six above.</li><li>Rules that differ from country to country: the checker does not know where the product was sold.</li></ul></section>
+<div class="card"><h2 style="margin:0 0 6px;font-size:1.1rem">Scan labels with your camera</h2><p>IngrediLens reads the ingredient list straight from your iPhone camera, checks it against more than 24,000 ingredients and highlights your allergens and “may contain” statements. Premium adds family profiles for everyone you shop for. Free to start, no account, and your data stays on your device.</p><a class="cta" href="https://apps.apple.com/app/id6806595642">Download on the App Store</a></div>
+<section><h2 id="faq">Frequently asked questions</h2><div class="card"><h3>Does “no matches” mean the product is safe for me?</h3><p>No. It only means the checker did not find the names it knows for the allergens you chose. Read the whole label, including the allergen statement, and if you are unsure, do not eat the product.</p></div><div class="card"><h3>Is my text sent anywhere?</h3><p>No. The page and its allergen list load once; the check runs in your browser and nothing you paste is sent or stored.</p></div><div class="card"><h3>Why are “may contain” warnings shown separately?</h3><p>They describe possible cross-contact, not a recipe ingredient. Many people with severe allergies avoid these products; follow your allergist&#x27;s advice.</p></div><div class="card"><h3>Which allergens does it cover?</h3><p>The 14 allergens that EU labels must emphasise (cereals containing gluten, crustaceans, egg, fish, peanuts, soy, milk, tree nuts, celery, mustard, sesame, sulphites, lupin and molluscs), plus lactose and carmine (E120).</p></div></section>
+<section><h2>Related guides</h2><ul class="list"><li><a href="/apps/ingredilens/guides/en/how-to-read-allergen-labels/">How to read allergen labels on food (EU, UK and US)</a><span>Where allergens appear on a food label in the EU, UK and US, what bold text and &quot;Contains&quot; mean, and a 6-step routine for checking every pack.</span></li><li><a href="/apps/ingredilens/guides/en/may-contain-traces-meaning/">What does &quot;may contain&quot; mean on food labels?</a><span>&quot;May contain&quot;, &quot;traces of&quot; and &quot;made in a factory that handles&quot; explained: why they are voluntary, what they do not tell you, and how to decide.</span></li><li><a href="/apps/ingredilens/guides/en/hidden-milk-names/">Hidden milk on labels, other names for dairy</a><span>Casein, whey, ghee, lactose and other names for milk on ingredient lists, the difference between milk allergy and lactose intolerance, and label traps.</span></li><li><a href="/apps/ingredilens/guides/en/hidden-gluten-names/">Hidden gluten on food labels, names to look for</a><span>Other names for wheat, barley and rye on ingredient lists, which ingredients are usually fine, and what &quot;gluten-free&quot; legally means in the EU, UK and US.</span></li><li><a href="/apps/ingredilens/guides/en/hidden-peanut-tree-nut-names/">Hidden peanut and tree nut names on food labels</a><span>Other names for peanuts and tree nuts (arachis oil, marzipan, praline, gianduja), which nuts the EU and US list, and nut names on cosmetics.</span></li><li><a href="/apps/ingredilens/guides/en/eu-14-allergens-list/">The 14 EU allergens list, explained with examples</a><span>The 14 allergens that must be emphasised on EU and UK food labels (Annex II of Regulation 1169/2011), with examples, other names and legal exemptions.</span></li></ul></section>
+<p class="card note muted">General information, not medical advice. Always read the label on the product itself and follow the advice of your doctor or allergist. If someone shows signs of anaphylaxis, use their adrenaline auto-injector if they have one and call emergency services.</p>
+<script type="application/json" id="il-ui">{"step1": "1. Paste the ingredient list", "placeholder": "Ingredients: wheat flour, sugar, …", "step2": "2. Your allergens", "check": "Check", "example": "Ingredients: sugar, wheat flour, palm oil, cocoa butter, whole milk powder, hazelnuts (5%), emulsifier: soy lecithin, raising agent (sodium bicarbonate), salt. May contain traces of peanuts and other nuts.", "clear": "Clear", "results": "Results", "label": "The label, highlighted", "contains": "Found in the ingredients", "may": "“May contain” / traces", "check_h": "Worth checking", "none": "No matches for the allergens you chose.", "noneNote": "That does not mean the product is free from them: the checker can miss unusual names, spelling mistakes and anything the label does not list. Always read the pack.", "pick": "Tick at least one allergen.", "empty": "Paste an ingredient list to check it.", "free": "The label also says", "freeNote": "A free-from claim never hides a match found in the ingredients.", "other": "Other allergens mentioned (not in your list)", "legend": "Red: in the ingredients · Amber: “may contain” / traces · Dotted: worth checking", "notes": {"lactoseFromMilk": "milk ingredients usually contain lactose", "lecithin": "lecithin is often from soy but can come from sunflower or rapeseed", "maltodextrin": "usually made from maize; the label must say when it comes from wheat", "oats": "oats count as a cereal containing gluten on EU labels"}, "lang": "en", "names": {"gluten": "Gluten", "milk": "Milk and dairy products", "lactose": "Lactose", "egg": "Egg", "peanuts": "Peanuts", "tree_nuts": "Tree nuts", "soy": "Soy", "sesame": "Sesame", "fish": "Fish", "crustaceans": "Crustaceans", "molluscs": "Molluscs", "mustard": "Mustard", "celery": "Celery", "lupin": "Lupin", "sulfites": "Sulphites", "carmine": "Carmine / cochineal"}}</script><script src="/apps/ingredilens/ingredient-checker/checker.js" defer></script>
+<footer>© 2026 Enescan İşler · <a href="/apps/ingredilens/">IngrediLens</a> · <a href="/apps/ingredilens/guides/">Guides</a> · <a href="/apps/ingredilens/privacy.html">Privacy</a></footer></main></body></html>
