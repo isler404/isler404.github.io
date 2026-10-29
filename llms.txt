@@ -8,7 +8,7 @@
 
 ## Guides
 
-- [All guides (hub)](https://isler404.github.io/apps/ingredilens/guides/): food allergy and label guides in English
+- [All guides (hub)](https://isler404.github.io/apps/ingredilens/guides/): food allergy and label guides in English, Español, Português, Deutsch, Français, Italiano
 - [How to read allergen labels on food (EU, UK and US)](https://isler404.github.io/apps/ingredilens/guides/en/how-to-read-allergen-labels/): Where allergens appear on a food label in the EU, UK and US, what bold text and "Contains" mean, and a 6-step routine for checking every pack.
 - [What does "may contain" mean on food labels?](https://isler404.github.io/apps/ingredilens/guides/en/may-contain-traces-meaning/): "May contain", "traces of" and "made in a factory that handles" explained: why they are voluntary, what they do not tell you, and how to decide.
 - [The 14 EU allergens list, explained with examples](https://isler404.github.io/apps/ingredilens/guides/en/eu-14-allergens-list/): The 14 allergens that must be emphasised on EU and UK food labels (Annex II of Regulation 1169/2011), with examples, other names and legal exemptions.
@@ -26,6 +26,14 @@
 - [Reading cosmetic INCI ingredient lists for sensitive skin](https://isler404.github.io/apps/ingredilens/guides/en/cosmetic-ingredients-sensitive-skin/): How to read INCI lists on skincare, which fragrance allergens EU law names, common skin irritants, and food allergens hidden in cosmetics.
 - [How to choose an allergen scanner app, a checklist](https://isler404.github.io/apps/ingredilens/guides/en/allergen-scanner-app-checklist/): Barcode database or label reading? What to check in an allergen scanner app, from allergen lists and "may contain" to languages and privacy.
 - [How to keep a food reaction diary to find triggers](https://isler404.github.io/apps/ingredilens/guides/en/food-reaction-diary/): What to note after a reaction to food or skincare, how a diary helps your doctor or allergist, and mistakes to avoid, like home allergy tests.
+
+## Other languages
+
+- [Español](https://isler404.github.io/apps/ingredilens/guides/es/): Guías sobre alergias alimentarias y etiquetas
+- [Português](https://isler404.github.io/apps/ingredilens/guides/pt/): Guias sobre alergia alimentar e rótulos
+- [Deutsch](https://isler404.github.io/apps/ingredilens/guides/de/): Ratgeber zu Lebensmittelallergien und Etiketten
+- [Français](https://isler404.github.io/apps/ingredilens/guides/fr/): Guides allergies alimentaires et étiquettes
+- [Italiano](https://isler404.github.io/apps/ingredilens/guides/it/): Guide su allergie alimentari ed etichette
 
 ## Reference
 
