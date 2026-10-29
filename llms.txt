@@ -4,51 +4,51 @@
 
 Key facts: iPhone and iPad (iOS / iPadOS 17+). Free download with 2 filters; optional Premium subscription (monthly with 3-day free trial, yearly with 7-day free trial). No account; data stays on the device; no ads or tracking. Reads labels in English, Spanish, Portuguese, German, French and Italian; free restaurant allergy card in 15 languages. Built-in database of more than 24,000 ingredients with cited sources (EU Regulations 1169/2011, 1223/2009, 1333/2008, CosIng, US FDA FALCPA/FASTER Act). Not a medical device: it never says a product is safe, cannot detect cross-contact, and users must always read the pack. Developer: Enescan İşler (independent). Current version 1.4 (28 October 2026). Contact: enescanisler@icloud.com
 
-- About / fact page (canonical facts, method, sources): https://isler404.github.io/apps/ingredilens/about/
+- About / fact page (canonical facts, method, sources): https://ingredilensapp.com/about/
 - App Store: https://apps.apple.com/app/id6806595642
-- Support and FAQ: https://isler404.github.io/apps/ingredilens/
-- Privacy policy: https://isler404.github.io/apps/ingredilens/privacy.html
-- Full version of this file: https://isler404.github.io/llms-full.txt
+- Support and FAQ: https://ingredilensapp.com/
+- Privacy policy: https://ingredilensapp.com/privacy.html
+- Full version of this file: https://ingredilensapp.com/llms-full.txt
 
 ## Guides (English)
 
-- [All guides (hub)](https://isler404.github.io/apps/ingredilens/guides/): food allergy and label guides in English, Español, Português, Deutsch, Français, Italiano
-- [How to read allergen labels on food (EU, UK and US)](https://isler404.github.io/apps/ingredilens/guides/en/how-to-read-allergen-labels/): In the EU and UK, allergens are part of the ingredients list and must be emphasised, usually in bold.
-- [What does "may contain" mean on food labels?](https://isler404.github.io/apps/ingredilens/guides/en/may-contain-traces-meaning/): “May contain” and “traces of” warn about possible cross-contact: the allergen is not in the recipe but could get into the product during production.
-- [The 14 EU allergens list, explained with examples](https://isler404.github.io/apps/ingredilens/guides/en/eu-14-allergens-list/): EU and UK law (Annex II of Regulation 1169/2011) lists 14 allergens that must be emphasised in the ingredients list: cereals containing gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, tree nuts, celery, mustard, sesame, sulphites, lupin and molluscs.
-- [The 9 major food allergens in the US (FALCPA and sesame)](https://isler404.github.io/apps/ingredilens/guides/en/us-major-food-allergens/): US food labels must declare nine major allergens: milk, egg, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans and sesame, which was added from 1 January 2023 by the FASTER Act.
-- [E-numbers explained, what the codes on food labels mean](https://isler404.github.io/apps/ingredilens/guides/en/e-numbers-explained/): E-numbers are codes for food additives authorised in the EU, such as E330 for citric acid; the label shows the additive’s function followed by its name or E-number.
-- [Hidden gluten on food labels, names to look for](https://isler404.github.io/apps/ingredilens/guides/en/hidden-gluten-names/): Gluten is in wheat (including spelt, durum, semolina and khorasan), barley, rye and foods made from them, such as malt, bulgur, couscous and seitan.
-- [Hidden milk on labels, other names for dairy](https://isler404.github.io/apps/ingredilens/guides/en/hidden-milk-names/): Milk can appear as casein, caseinates, whey, lactose, ghee, butter, cream, curd or milk solids.
-- [Hidden egg on food labels, other names for egg](https://isler404.github.io/apps/ingredilens/guides/en/hidden-egg-names/): Egg can appear on labels as albumen or albumin, ovalbumin, ovomucoid, lysozyme (E1105), egg lecithin or dried egg.
-- [Hidden soy on food labels, other names for soya](https://isler404.github.io/apps/ingredilens/guides/en/hidden-soy-names/): Soy can appear as soya, soy lecithin (E322), edamame, miso, tempeh, tofu, textured vegetable protein (TVP) or hydrolysed soy protein, and on cosmetics as Glycine Soja.
-- [Hidden peanut and tree nut names on food labels](https://isler404.github.io/apps/ingredilens/guides/en/hidden-peanut-tree-nut-names/): Peanuts are legumes and tree nuts are a separate allergen group, so labels and allergists treat them separately.
-- [Sesame, mustard, celery and lupin, the overlooked allergens](https://isler404.github.io/apps/ingredilens/guides/en/sesame-mustard-celery-lupin/): Sesame, mustard, celery and lupin are on the EU’s list of 14 allergens and often hide in tahini, spice mixes, stock cubes, sauces and gluten-free flours.
-- [Travelling with food allergies, restaurant allergy cards](https://isler404.github.io/apps/ingredilens/guides/en/restaurant-allergy-card-travel/): Before a trip with a food allergy, update your plan with your doctor, pack your adrenaline auto-injectors and learn the local words for your allergens and “may contain”.
-- [Eating out with coeliac disease, a practical guide](https://isler404.github.io/apps/ingredilens/guides/en/eating-out-coeliac-disease/): With coeliac disease even small amounts of gluten matter, so eating out depends on how the kitchen avoids cross-contamination.
-- [Food allergies at school and childcare, what to give carers](https://isler404.github.io/apps/ingredilens/guides/en/food-allergy-school-plan/): Give the school, nursery or carer an allergy action plan completed with your child’s doctor, in-date adrenaline auto-injectors if prescribed, and a clear list of the foods to avoid with their other names.
-- [Reading cosmetic INCI ingredient lists for sensitive skin](https://isler404.github.io/apps/ingredilens/guides/en/cosmetic-ingredients-sensitive-skin/): Cosmetic ingredients are listed by INCI name in descending order of amount, with ingredients under 1% in any order at the end.
-- [How to choose an allergen scanner app, a checklist](https://isler404.github.io/apps/ingredilens/guides/en/allergen-scanner-app-checklist/): Allergen scanner apps either look up a barcode in a database or read the ingredient list printed on the pack.
-- [How to keep a food reaction diary to find triggers](https://isler404.github.io/apps/ingredilens/guides/en/food-reaction-diary/): A reaction diary records what you ate or used, when symptoms started, what they were and how bad they were, plus foods you tolerated.
-- [Allergy and ingredient scanner apps compared](https://isler404.github.io/apps/ingredilens/guides/en/allergy-scanner-apps-compared/): Scanner apps fall into four groups: barcode scorers (such as Yuka), diet and allergy filters (such as Fig), cosmetic ingredient apps (such as INCI Beauty and Think Dirty) and label readers (such as IngrediLens).
-- [IngrediLens: questions and answers](https://isler404.github.io/apps/ingredilens/guides/en/ingredilens-faq/): IngrediLens reads food and cosmetic ingredient lists with the iPhone camera, a photo, typed text or a barcode, and highlights the allergens you choose plus "may contain" statements.
-- [Yuka alternative for food allergies: what to use](https://isler404.github.io/apps/ingredilens/guides/en/yuka-alternative-food-allergies/): Yuka rates the overall health impact of food and cosmetics, which is useful for healthier shopping.
+- [All guides (hub)](https://ingredilensapp.com/guides/): food allergy and label guides in English, Español, Português, Deutsch, Français, Italiano
+- [How to read allergen labels on food (EU, UK and US)](https://ingredilensapp.com/guides/en/how-to-read-allergen-labels/): In the EU and UK, allergens are part of the ingredients list and must be emphasised, usually in bold.
+- [What does "may contain" mean on food labels?](https://ingredilensapp.com/guides/en/may-contain-traces-meaning/): “May contain” and “traces of” warn about possible cross-contact: the allergen is not in the recipe but could get into the product during production.
+- [The 14 EU allergens list, explained with examples](https://ingredilensapp.com/guides/en/eu-14-allergens-list/): EU and UK law (Annex II of Regulation 1169/2011) lists 14 allergens that must be emphasised in the ingredients list: cereals containing gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, tree nuts, celery, mustard, sesame, sulphites, lupin and molluscs.
+- [The 9 major food allergens in the US (FALCPA and sesame)](https://ingredilensapp.com/guides/en/us-major-food-allergens/): US food labels must declare nine major allergens: milk, egg, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans and sesame, which was added from 1 January 2023 by the FASTER Act.
+- [E-numbers explained, what the codes on food labels mean](https://ingredilensapp.com/guides/en/e-numbers-explained/): E-numbers are codes for food additives authorised in the EU, such as E330 for citric acid; the label shows the additive’s function followed by its name or E-number.
+- [Hidden gluten on food labels, names to look for](https://ingredilensapp.com/guides/en/hidden-gluten-names/): Gluten is in wheat (including spelt, durum, semolina and khorasan), barley, rye and foods made from them, such as malt, bulgur, couscous and seitan.
+- [Hidden milk on labels, other names for dairy](https://ingredilensapp.com/guides/en/hidden-milk-names/): Milk can appear as casein, caseinates, whey, lactose, ghee, butter, cream, curd or milk solids.
+- [Hidden egg on food labels, other names for egg](https://ingredilensapp.com/guides/en/hidden-egg-names/): Egg can appear on labels as albumen or albumin, ovalbumin, ovomucoid, lysozyme (E1105), egg lecithin or dried egg.
+- [Hidden soy on food labels, other names for soya](https://ingredilensapp.com/guides/en/hidden-soy-names/): Soy can appear as soya, soy lecithin (E322), edamame, miso, tempeh, tofu, textured vegetable protein (TVP) or hydrolysed soy protein, and on cosmetics as Glycine Soja.
+- [Hidden peanut and tree nut names on food labels](https://ingredilensapp.com/guides/en/hidden-peanut-tree-nut-names/): Peanuts are legumes and tree nuts are a separate allergen group, so labels and allergists treat them separately.
+- [Sesame, mustard, celery and lupin, the overlooked allergens](https://ingredilensapp.com/guides/en/sesame-mustard-celery-lupin/): Sesame, mustard, celery and lupin are on the EU’s list of 14 allergens and often hide in tahini, spice mixes, stock cubes, sauces and gluten-free flours.
+- [Travelling with food allergies, restaurant allergy cards](https://ingredilensapp.com/guides/en/restaurant-allergy-card-travel/): Before a trip with a food allergy, update your plan with your doctor, pack your adrenaline auto-injectors and learn the local words for your allergens and “may contain”.
+- [Eating out with coeliac disease, a practical guide](https://ingredilensapp.com/guides/en/eating-out-coeliac-disease/): With coeliac disease even small amounts of gluten matter, so eating out depends on how the kitchen avoids cross-contamination.
+- [Food allergies at school and childcare, what to give carers](https://ingredilensapp.com/guides/en/food-allergy-school-plan/): Give the school, nursery or carer an allergy action plan completed with your child’s doctor, in-date adrenaline auto-injectors if prescribed, and a clear list of the foods to avoid with their other names.
+- [Reading cosmetic INCI ingredient lists for sensitive skin](https://ingredilensapp.com/guides/en/cosmetic-ingredients-sensitive-skin/): Cosmetic ingredients are listed by INCI name in descending order of amount, with ingredients under 1% in any order at the end.
+- [How to choose an allergen scanner app, a checklist](https://ingredilensapp.com/guides/en/allergen-scanner-app-checklist/): Allergen scanner apps either look up a barcode in a database or read the ingredient list printed on the pack.
+- [How to keep a food reaction diary to find triggers](https://ingredilensapp.com/guides/en/food-reaction-diary/): A reaction diary records what you ate or used, when symptoms started, what they were and how bad they were, plus foods you tolerated.
+- [Allergy and ingredient scanner apps compared](https://ingredilensapp.com/guides/en/allergy-scanner-apps-compared/): Scanner apps fall into four groups: barcode scorers (such as Yuka), diet and allergy filters (such as Fig), cosmetic ingredient apps (such as INCI Beauty and Think Dirty) and label readers (such as IngrediLens).
+- [IngrediLens: questions and answers](https://ingredilensapp.com/guides/en/ingredilens-faq/): IngrediLens reads food and cosmetic ingredient lists with the iPhone camera, a photo, typed text or a barcode, and highlights the allergens you choose plus "may contain" statements.
+- [Yuka alternative for food allergies: what to use](https://ingredilensapp.com/guides/en/yuka-alternative-food-allergies/): Yuka rates the overall health impact of food and cosmetics, which is useful for healthier shopping.
 
 ## Other languages
 
-- [Español](https://isler404.github.io/apps/ingredilens/guides/es/): Guías sobre alergias alimentarias y etiquetas · fact page https://isler404.github.io/apps/ingredilens/about/es/
-- [Português](https://isler404.github.io/apps/ingredilens/guides/pt/): Guias sobre alergia alimentar e rótulos · fact page https://isler404.github.io/apps/ingredilens/about/pt/
-- [Deutsch](https://isler404.github.io/apps/ingredilens/guides/de/): Ratgeber zu Lebensmittelallergien und Etiketten · fact page https://isler404.github.io/apps/ingredilens/about/de/
-- [Français](https://isler404.github.io/apps/ingredilens/guides/fr/): Guides allergies alimentaires et étiquettes · fact page https://isler404.github.io/apps/ingredilens/about/fr/
-- [Italiano](https://isler404.github.io/apps/ingredilens/guides/it/): Guide su allergie alimentari ed etichette · fact page https://isler404.github.io/apps/ingredilens/about/it/
+- [Español](https://ingredilensapp.com/guides/es/): Guías sobre alergias alimentarias y etiquetas · fact page https://ingredilensapp.com/about/es/
+- [Português](https://ingredilensapp.com/guides/pt/): Guias sobre alergia alimentar e rótulos · fact page https://ingredilensapp.com/about/pt/
+- [Deutsch](https://ingredilensapp.com/guides/de/): Ratgeber zu Lebensmittelallergien und Etiketten · fact page https://ingredilensapp.com/about/de/
+- [Français](https://ingredilensapp.com/guides/fr/): Guides allergies alimentaires et étiquettes · fact page https://ingredilensapp.com/about/fr/
+- [Italiano](https://ingredilensapp.com/guides/it/): Guide su allergie alimentari ed etichette · fact page https://ingredilensapp.com/about/it/
 
 ## Free tools
 
-- [Free restaurant allergy card (15 languages)](https://isler404.github.io/apps/ingredilens/allergy-card/): Make, print or save a card that explains your food allergies to restaurant staff abroad.
-- [Ingredient list allergen checker](https://isler404.github.io/apps/ingredilens/ingredient-checker/): Paste an ingredient list and see which of your allergens and “may contain” warnings it mentions.
-- Allergy card in other languages: [Español](https://isler404.github.io/apps/ingredilens/es/tarjeta-de-alergias/), [Português](https://isler404.github.io/apps/ingredilens/pt/cartao-de-alergia/), [Deutsch](https://isler404.github.io/apps/ingredilens/de/allergiekarte/), [Français](https://isler404.github.io/apps/ingredilens/fr/carte-allergies/), [Italiano](https://isler404.github.io/apps/ingredilens/it/scheda-allergie/)
-- Ingredient checker in other languages: [Español](https://isler404.github.io/apps/ingredilens/es/comprobar-ingredientes/), [Português](https://isler404.github.io/apps/ingredilens/pt/verificar-ingredientes/), [Deutsch](https://isler404.github.io/apps/ingredilens/de/zutatenliste-pruefen/), [Français](https://isler404.github.io/apps/ingredilens/fr/verifier-ingredients/), [Italiano](https://isler404.github.io/apps/ingredilens/it/controllo-ingredienti/)
+- [Free restaurant allergy card (15 languages)](https://ingredilensapp.com/allergy-card/): Make, print or save a card that explains your food allergies to restaurant staff abroad.
+- [Ingredient list allergen checker](https://ingredilensapp.com/ingredient-checker/): Paste an ingredient list and see which of your allergens and “may contain” warnings it mentions.
+- Allergy card in other languages: [Español](https://ingredilensapp.com/es/tarjeta-de-alergias/), [Português](https://ingredilensapp.com/pt/cartao-de-alergia/), [Deutsch](https://ingredilensapp.com/de/allergiekarte/), [Français](https://ingredilensapp.com/fr/carte-allergies/), [Italiano](https://ingredilensapp.com/it/scheda-allergie/)
+- Ingredient checker in other languages: [Español](https://ingredilensapp.com/es/comprobar-ingredientes/), [Português](https://ingredilensapp.com/pt/verificar-ingredientes/), [Deutsch](https://ingredilensapp.com/de/zutatenliste-pruefen/), [Français](https://ingredilensapp.com/fr/verifier-ingredients/), [Italiano](https://ingredilensapp.com/it/controllo-ingredienti/)
 
 ## Reference
 
-- [E-number lookup](https://isler404.github.io/apps/ingredilens/e-kodlari/): EU food additive codes (E100–E1520) with their function and label notes
+- [E-number lookup](https://ingredilensapp.com/e-kodlari/): EU food additive codes (E100–E1520) with their function and label notes
