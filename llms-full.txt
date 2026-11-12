@@ -381,6 +381,276 @@ Wet food looks low in protein because it is mostly water. Learn to compare canne
 - [Ödül mamaları ve mama üstü katkılar alerji diyetini nasıl bozar](https://isler404.github.io/apps/pawfood/tr/guides/treats-and-toppers/): Ödül mamaları, çiğneme ürünleri, mama üstü katkılar ve aromalı ekstralar çoğu zaman diyetin kaçındığı proteinleri taşır. Nasıl kontrol edeceğini öğren.
 - [Yaş mama mı, kuru mama mı: etiketleri adil karşılaştırmak](https://isler404.github.io/apps/pawfood/tr/guides/wet-vs-dry-food-labels/): Yaş mamada protein düşük görünür, çünkü büyük kısmı sudur. Konserve ve kuru mama etiketlerini kuru madde ve kalori bazında adım adım karşılaştır.
 
+## Guides (Español)
+
+- [¿Alergia o intolerancia alimentaria? Cómo se diferencian en perros y gatos](https://isler404.github.io/apps/pawfood/es/guides/allergy-vs-intolerance/): La alergia alimentaria involucra al sistema inmunitario; la intolerancia no. Los signos se parecen, así que solo una prueba guiada por el veterinario las distingue.
+- [«Aves», «grasa animal», «saborizante natural»: términos vagos de las etiquetas](https://isler404.github.io/apps/pawfood/es/guides/ambiguous-terms-poultry/): Qué términos de la etiqueta no nombran al animal, qué pueden contener, por qué importan para las listas de alergias y cómo obtener una respuesta clara del fabricante.
+- [Qué significan realmente «subproducto» y «harina» en la etiqueta del alimento para mascotas](https://isler404.github.io/apps/pawfood/es/guides/by-products-and-meals/): Subproductos y harinas son términos definidos, no insultos. Aprende qué incluyen, por qué importa el nombre de la especie y cómo leerlos si hay alergias.
+- [Los alérgenos alimentarios más reportados en gatos y dónde se esconden en las etiquetas](https://isler404.github.io/apps/pawfood/es/guides/common-cat-food-allergens/): Res, pescado y pollo encabezan los casos publicados en gatos. Qué significan las cifras, por qué no son un ranking de riesgo y dónde se esconden esas proteínas.
+- [Materia seca, explicada: cómo comparar alimento húmedo y seco](https://isler404.github.io/apps/pawfood/es/guides/dry-matter-basis/): Qué es la materia seca, cómo convertir el análisis garantizado paso a paso, cómo estimar los carbohidratos con honestidad y los errores que confunden las comparaciones.
+- [Llevar un diario de alimentación de tu mascota: qué anotar y cómo compartirlo con el veterinario](https://isler404.github.io/apps/pawfood/es/guides/food-journal-guide/): Guía práctica para registrar alimentos, premios, síntomas, heces y peso de forma útil para tu veterinario, sin sacar conclusiones propias de los patrones.
+- [Alimento sin granos: qué significa la etiqueta y qué no](https://isler404.github.io/apps/pawfood/es/guides/grain-free-explained/): Sin granos significa sin cereales; no es una declaración de bajo carbohidrato ni sobre alergias. Qué reemplaza a los granos y qué dijo la FDA sobre dieta y DCM.
+- [Cómo leer la etiqueta del alimento para perros o gatos, paso a paso](https://isler404.github.io/apps/pawfood/es/guides/how-to-read-pet-food-labels/): Un recorrido práctico por cada parte de la etiqueta: reglas del nombre, orden de ingredientes, análisis garantizado, declaración de adecuación, guía de alimentación y letra pequeña.
+- [Dietas de proteína hidrolizada: cómo funcionan y qué dice la etiqueta](https://isler404.github.io/apps/pawfood/es/guides/hydrolyzed-protein-diets/): La hidrólisis divide las proteínas en trozos que el sistema inmunitario reconoce con menos probabilidad. Menos probable no es nunca: qué hallaron los estudios y qué preguntar.
+- [Conservantes en el alimento para mascotas: tocoferoles mixtos, BHA, BHT y etoxiquina](https://isler404.github.io/apps/pawfood/es/guides/preservatives-explained/): Una mirada neutral a por qué los alimentos llevan conservantes, cómo difieren los antioxidantes naturales y sintéticos, qué dicen las normas y cómo leerlos en la etiqueta.
+- [Etiquetas de alimento para cachorros y gatitos: crecimiento, todas las etapas y razas grandes](https://isler404.github.io/apps/pawfood/es/guides/puppy-kitten-food-labels/): Qué revisar en la etiqueta del alimento para cachorros o gatitos, desde la declaración de crecimiento y la frase de razas grandes hasta calorías, calcio y guías de alimentación.
+- [Etiquetas de alimento senior: lo que «senior» dice y lo que no](https://isler404.github.io/apps/pawfood/es/guides/senior-pet-food-labels/): No existe un estándar legal propio para el alimento senior. Qué revisar en la etiqueta, desde calorías y proteína hasta las declaraciones articulares y los valores que faltan.
+- [Cómo los premios y toppers pueden deshacer una dieta para alergias](https://isler404.github.io/apps/pawfood/es/guides/treats-and-toppers/): Premios, masticables, toppers y extras saborizados suelen llevar justo las proteínas que una dieta evita. Cómo revisarlos y mantener constante una prueba de dieta.
+- [Alimento húmedo o seco: cómo comparar las etiquetas de forma justa](https://isler404.github.io/apps/pawfood/es/guides/wet-vs-dry-food-labels/): El alimento húmedo parece bajo en proteína porque es sobre todo agua. Aprende a comparar latas y croquetas en base seca y por calorías, paso a paso.
+
+## Guides (Português (Brasil))
+
+- [Alergia ou intolerância alimentar? Como se diferenciam em cães e gatos](https://isler404.github.io/apps/pawfood/pt-br/guides/allergy-vs-intolerance/): A alergia alimentar envolve o sistema imunológico; a intolerância não. Os sinais se parecem, então só um teste orientado pelo veterinário as separa.
+- [«Aves», «gordura animal», «aroma natural»: termos vagos dos rótulos explicados](https://isler404.github.io/apps/pawfood/pt-br/guides/ambiguous-terms-poultry/): Quais termos do rótulo não indicam o animal, o que cada um pode conter, por que isso importa para listas de alergia e como obter uma resposta clara do fabricante.
+- [O que «subproduto» e «farinha» realmente significam no rótulo do alimento para pets](https://isler404.github.io/apps/pawfood/pt-br/guides/by-products-and-meals/): Subprodutos e farinhas são termos definidos, não ofensas. Veja o que incluem, por que o nome da espécie importa e como lê-los quando há alergia.
+- [Os alérgenos alimentares mais relatados em gatos e onde se escondem nos rótulos](https://isler404.github.io/apps/pawfood/pt-br/guides/common-cat-food-allergens/): Carne bovina, peixe e frango lideram os casos publicados em gatos. O que os números significam, por que não são um ranking de risco e onde essas proteínas aparecem.
+- [Matéria seca explicada: como comparar alimento úmido e ração seca](https://isler404.github.io/apps/pawfood/pt-br/guides/dry-matter-basis/): O que é matéria seca, como converter os níveis de garantia passo a passo, como estimar carboidratos com honestidade e os erros que tornam as comparações enganosas.
+- [Diário alimentar do pet: o que registrar e como mostrar ao veterinário](https://isler404.github.io/apps/pawfood/pt-br/guides/food-journal-guide/): Guia prático para registrar alimentos, petiscos, sintomas, fezes e peso de um jeito útil para o veterinário, sem tirar conclusões próprias dos padrões.
+- [Alimento sem grãos: o que o rótulo significa e o que não significa](https://isler404.github.io/apps/pawfood/pt-br/guides/grain-free-explained/): Sem grãos quer dizer sem cereais; não é alegação de pouco carboidrato nem sobre alergia. O que substitui os grãos e o que a FDA disse sobre dieta e DCM.
+- [Como ler o rótulo do alimento para cães e gatos, passo a passo](https://isler404.github.io/apps/pawfood/pt-br/guides/how-to-read-pet-food-labels/): Um roteiro prático por cada parte do rótulo: regras do nome, ordem dos ingredientes, níveis de garantia, declaração de adequação, recomendação de consumo e letras miúdas.
+- [Dietas de proteína hidrolisada: como funcionam e o que o rótulo diz](https://isler404.github.io/apps/pawfood/pt-br/guides/hydrolyzed-protein-diets/): A hidrólise quebra as proteínas em pedaços que o sistema imunológico reconhece com menos chance. Menos chance não é nunca: o que os estudos acharam e o que perguntar.
+- [Conservantes no alimento para pets: tocoferóis mistos, BHA, BHT e etoxiquina](https://isler404.github.io/apps/pawfood/pt-br/guides/preservatives-explained/): Um olhar neutro sobre por que os alimentos têm conservantes, como antioxidantes naturais e sintéticos diferem, o que dizem as normas e como lê-los no rótulo.
+- [Rótulos de alimento para filhotes: crescimento, todas as fases da vida e porte grande](https://isler404.github.io/apps/pawfood/pt-br/guides/puppy-kitten-food-labels/): O que conferir no rótulo do alimento para filhotes de cão e gato, da declaração de crescimento e da frase sobre porte grande até calorias, cálcio e recomendação de consumo.
+- [Rótulos de alimento para pets idosos: o que «sênior» diz e o que não diz](https://isler404.github.io/apps/pawfood/pt-br/guides/senior-pet-food-labels/): Não existe um padrão legal próprio para alimento sênior. O que conferir no rótulo, de calorias e proteína a alegações para articulações e valores ausentes.
+- [Como petiscos e toppers podem desfazer uma dieta para alergia](https://isler404.github.io/apps/pawfood/pt-br/guides/treats-and-toppers/): Petiscos, mastigáveis, toppers e extras saborizados muitas vezes trazem justamente as proteínas que a dieta evita. Como conferir e manter um teste de dieta consistente.
+- [Alimento úmido ou seco: como comparar os rótulos de forma justa](https://isler404.github.io/apps/pawfood/pt-br/guides/wet-vs-dry-food-labels/): O alimento úmido parece ter pouca proteína porque é principalmente água. Aprenda a comparar latas e ração seca na matéria seca e por calorias, passo a passo.
+
+## Guides (Deutsch)
+
+- [Futtermittelallergie oder -unverträglichkeit? Der Unterschied bei Hund und Katze](https://isler404.github.io/apps/pawfood/de/guides/allergy-vs-intolerance/): Bei einer Futtermittelallergie ist das Immunsystem beteiligt, bei einer Unverträglichkeit nicht. Die Symptome ähneln sich; Klarheit bringt nur eine tierärztliche Diät.
+- [»Geflügel«, »tierisches Fett«, »natürliches Aroma«: vage Begriffe auf Futteretiketten](https://isler404.github.io/apps/pawfood/de/guides/ambiguous-terms-poultry/): Welche Etikettbegriffe keine Tierart nennen, was sie enthalten können, warum das für Allergielisten zählt und wie du vom Hersteller eine klare Antwort bekommst.
+- [Was »Nebenerzeugnis« und »Mehl« auf dem Futteretikett wirklich bedeuten](https://isler404.github.io/apps/pawfood/de/guides/by-products-and-meals/): Nebenerzeugnisse und Mehle sind definierte Futtermittelbegriffe, keine Schimpfwörter. Was sie umfassen, warum die Tierart zählt und wie du sie bei Allergien liest.
+- [Die am häufigsten berichteten Futtermittelallergene bei Katzen und wo sie sich auf Etiketten verstecken](https://isler404.github.io/apps/pawfood/de/guides/common-cat-food-allergens/): Rind, Fisch und Huhn führen die veröffentlichten Katzenfälle an. Was die Zahlen bedeuten, warum sie keine Risikorangliste sind und wo diese Proteine stecken.
+- [Trockensubstanz erklärt: Nass- und Trockenfutter richtig vergleichen](https://isler404.github.io/apps/pawfood/de/guides/dry-matter-basis/): Was Trockensubstanz ist, wie du analytische Bestandteile Schritt für Schritt umrechnest, wie du Kohlenhydrate ehrlich schätzt und welche Fehler Vergleiche verfälschen.
+- [Ein Futtertagebuch führen: was du notierst und wie du es mit der Tierarztpraxis teilst](https://isler404.github.io/apps/pawfood/de/guides/food-journal-guide/): Ein praktischer Leitfaden, um Futter, Leckerlis, Symptome, Kot und Gewicht so festzuhalten, dass deine Praxis damit arbeiten kann – ohne selbst zu viel hineinzulesen.
+- [Getreidefreies Tierfutter: was das Etikett bedeutet und was nicht](https://isler404.github.io/apps/pawfood/de/guides/grain-free-explained/): Getreidefrei heißt ohne Getreide – keine Low-Carb- und keine Allergieaussage. Was das Getreide ersetzt und was die FDA zu Futter und DCM gesagt hat.
+- [Hunde- oder Katzenfutter-Etikett lesen, Schritt für Schritt](https://isler404.github.io/apps/pawfood/de/guides/how-to-read-pet-food-labels/): Ein praktischer Rundgang durch jeden Teil des Etiketts: Benennungsregeln, Reihenfolge der Zutaten, analytische Bestandteile, Futterart, Fütterungsempfehlung und Kleingedrucktes.
+- [Hydrolysatdiäten: wie sie funktionieren und was das Etikett verrät](https://isler404.github.io/apps/pawfood/de/guides/hydrolyzed-protein-diets/): Hydrolyse zerlegt Proteine in Stücke, die das Immunsystem seltener erkennt. Seltener heißt nicht nie: was Studien gefunden haben und was du fragen solltest.
+- [Konservierungsstoffe in Tierfutter: gemischte Tocopherole, BHA, BHT und Ethoxyquin](https://isler404.github.io/apps/pawfood/de/guides/preservatives-explained/): Ein neutraler Blick darauf, warum Futter Konservierungsstoffe enthält, wie sich natürliche und synthetische Antioxidationsmittel unterscheiden, was die Regeln sagen und wie du sie liest.
+- [Etiketten für Welpen- und Kittenfutter: Wachstum, alle Lebensphasen und große Rassen](https://isler404.github.io/apps/pawfood/de/guides/puppy-kitten-food-labels/): Was du auf Welpen- und Kittenfutter prüfen solltest – von der Wachstumsangabe und dem Hinweis für große Rassen bis zu Energie, Calcium und Fütterungsempfehlung.
+- [Etiketten für Seniorenfutter: was »Senior« aussagt und was nicht](https://isler404.github.io/apps/pawfood/de/guides/senior-pet-food-labels/): Für Seniorenfutter gibt es keinen eigenen rechtlichen Standard. Worauf du stattdessen achtest – von Energie und Protein bis zu Gelenkversprechen und fehlenden Werten.
+- [Wie Leckerlis und Topper eine Allergiediät zunichtemachen können](https://isler404.github.io/apps/pawfood/de/guides/treats-and-toppers/): Leckerlis, Kauartikel, Topper und aromatisierte Extras enthalten oft genau die Proteine, die eine Diät meiden soll. So prüfst du sie und hältst einen Diätversuch konsequent.
+- [Nass- oder Trockenfutter: Etiketten fair vergleichen](https://isler404.github.io/apps/pawfood/de/guides/wet-vs-dry-food-labels/): Nassfutter wirkt proteinarm, weil es überwiegend Wasser ist. So vergleichst du Dose und Trockenfutter Schritt für Schritt in der Trockensubstanz und nach Energie.
+
+## Guides (Français)
+
+- [Allergie ou intolérance alimentaire ? Les différences chez le chien et le chat](https://isler404.github.io/apps/pawfood/fr/guides/allergy-vs-intolerance/): L'allergie alimentaire fait intervenir le système immunitaire, pas l'intolérance. Les signes se ressemblent : seul un régime encadré par le vétérinaire les distingue.
+- [« Volaille », « graisse animale », « arôme naturel » : les termes vagues des étiquettes](https://isler404.github.io/apps/pawfood/fr/guides/ambiguous-terms-poultry/): Quels termes d'étiquette ne nomment pas l'animal, ce qu'ils peuvent contenir, pourquoi c'est important en cas d'allergie et comment obtenir une réponse claire du fabricant.
+- [Ce que « sous-produit » et « farine » veulent vraiment dire sur une étiquette d'aliment pour animaux](https://isler404.github.io/apps/pawfood/fr/guides/by-products-and-meals/): Sous-produits et farines sont des termes définis, pas des insultes. Ce qu'ils recouvrent, pourquoi le nom de l'espèce compte et comment les lire en cas d'allergie.
+- [Les allergènes alimentaires les plus rapportés chez le chat et où ils se cachent sur les étiquettes](https://isler404.github.io/apps/pawfood/fr/guides/common-cat-food-allergens/): Bœuf, poisson et poulet dominent les cas publiés chez le chat. Ce que valent ces chiffres, pourquoi ce n'est pas un classement de risque et où trouver ces protéines.
+- [La matière sèche expliquée : comparer pâtées et croquettes](https://isler404.github.io/apps/pawfood/fr/guides/dry-matter-basis/): Ce qu'est la matière sèche, comment convertir les constituants analytiques pas à pas, comment estimer honnêtement les glucides et les erreurs qui faussent les comparaisons.
+- [Tenir un journal alimentaire pour son animal : quoi noter et comment le partager avec le vétérinaire](https://isler404.github.io/apps/pawfood/fr/guides/food-journal-guide/): Un guide pratique pour consigner aliments, friandises, symptômes, selles et poids de façon utile à votre vétérinaire, sans surinterpréter vous-même les tendances.
+- [Aliments sans céréales : ce que dit l'étiquette, et ce qu'elle ne dit pas](https://isler404.github.io/apps/pawfood/fr/guides/grain-free-explained/): Sans céréales ne veut dire ni pauvre en glucides ni adapté aux allergies. Ce qui remplace les céréales et ce qu'a dit la FDA sur alimentation et CMD.
+- [Lire l'étiquette d'un aliment pour chien ou chat, étape par étape](https://isler404.github.io/apps/pawfood/fr/guides/how-to-read-pet-food-labels/): Un parcours pratique de chaque partie de l'étiquette : règles de dénomination, ordre des ingrédients, constituants analytiques, type d'aliment, rationnement et petits caractères.
+- [Régimes à protéines hydrolysées : comment ils fonctionnent et ce que dit l'étiquette](https://isler404.github.io/apps/pawfood/fr/guides/hydrolyzed-protein-diets/): L'hydrolyse découpe les protéines en fragments que le système immunitaire reconnaît moins souvent. Moins souvent n'est pas jamais : ce qu'ont trouvé les études et quoi demander.
+- [Les conservateurs des aliments pour animaux : tocophérols mélangés, BHA, BHT et éthoxyquine](https://isler404.github.io/apps/pawfood/fr/guides/preservatives-explained/): Un regard neutre sur la raison d'être des conservateurs, la différence entre antioxydants naturels et de synthèse, ce que dit la réglementation et comment les lire sur l'étiquette.
+- [Étiquettes des aliments pour chiots et chatons : croissance, tous stades de vie et grandes races](https://isler404.github.io/apps/pawfood/fr/guides/puppy-kitten-food-labels/): Ce qu'il faut vérifier sur l'étiquette d'un aliment pour chiot ou chaton, de la mention de croissance et des grandes races à l'énergie, au calcium et au rationnement.
+- [Étiquettes des aliments senior : ce que « senior » dit, et ce qu'il ne dit pas](https://isler404.github.io/apps/pawfood/fr/guides/senior-pet-food-labels/): Il n'existe pas de norme légale propre aux aliments senior. Ce qu'il faut vérifier à la place, de l'énergie et des protéines aux allégations articulaires et aux valeurs absentes.
+- [Comment friandises et toppers peuvent défaire un régime anti-allergie](https://isler404.github.io/apps/pawfood/fr/guides/treats-and-toppers/): Friandises, objets à mâcher, toppers et extras aromatisés contiennent souvent les protéines mêmes que le régime évite. Comment les vérifier et garder un essai alimentaire cohérent.
+- [Pâtée ou croquettes : comparer les étiquettes équitablement](https://isler404.github.io/apps/pawfood/fr/guides/wet-vs-dry-food-labels/): La pâtée semble pauvre en protéines parce qu'elle est surtout composée d'eau. Apprenez à comparer boîtes et croquettes sur matière sèche et selon l'énergie, pas à pas.
+
+## Questions and answers (English)
+
+### Can a blood, hair or saliva test diagnose food allergies in dogs and cats?
+https://isler404.github.io/apps/pawfood/questions/blood-tests-for-pet-food-allergies/
+
+Not reliably. Blood tests for food allergy proved inaccurate in reviews, and hair and saliva tests are unproven. A vet-led elimination diet is the standard.
+
+### Can a dog with a chicken allergy react to hydrolyzed chicken?
+https://isler404.github.io/apps/pawfood/questions/hydrolyzed-chicken-and-chicken-allergy/
+
+Some can. Hydrolysis makes chicken protein less likely to be recognized, but how far it is broken down matters; studies found reactions to partial hydrolysates.
+
+### Can I give treats during an elimination diet?
+https://isler404.github.io/apps/pawfood/questions/treats-during-elimination-diet/
+
+Only treats your vet approves, usually made from the trial diet itself. Ordinary treats, chews and flavored medicines can undo the trial.
+
+### Can pet food contain ingredients that aren't on the label?
+https://isler404.github.io/apps/pawfood/questions/undeclared-ingredients-in-pet-food/
+
+Yes. Studies testing pet foods found undeclared animal or plant ingredients in many products, including some sold for elimination diets.
+
+### Does 'natural flavor' in pet food contain chicken?
+https://isler404.github.io/apps/pawfood/questions/does-natural-flavor-contain-chicken/
+
+It can. 'Natural flavor' doesn't name its source, and in pet food it is often made from animal tissue such as chicken. Ask the manufacturer.
+
+### Does a chicken allergy mean my dog can't have eggs?
+https://isler404.github.io/apps/pawfood/questions/chicken-allergy-and-eggs/
+
+Not necessarily. Egg and chicken meat contain different proteins, and evidence on overlap in dogs and cats is limited. Your vet decides whether eggs fit.
+
+### Does the first ingredient tell me what pet food is mostly made of?
+https://isler404.github.io/apps/pawfood/questions/does-first-ingredient-matter/
+
+Only partly. Ingredients are listed by weight before cooking, so water-heavy fresh meat can come first even if dry ingredients supply more nutrients.
+
+### How do I calculate the carbohydrates in pet food?
+https://isler404.github.io/apps/pawfood/questions/how-to-calculate-carbs-in-pet-food/
+
+Subtract protein, fat, fiber, moisture and ash from 100. It only works when all five are on the label, and the result is an estimate.
+
+### How do I know if my cat food has fish in it?
+https://isler404.github.io/apps/pawfood/questions/how-to-tell-if-cat-food-contains-fish/
+
+Read the whole ingredient list, not the front of the pack. Fish hides in oils, digests, broths and vague terms like 'ocean fish' or 'animal digest'.
+
+### How do I read a cat food label?
+https://isler404.github.io/apps/pawfood/questions/how-to-read-a-cat-food-label/
+
+Check the adequacy statement first, then the ingredient list, the guaranteed analysis and the calories. The product name is the least reliable part.
+
+### How do I switch my dog to a new food?
+https://isler404.github.io/apps/pawfood/questions/how-to-switch-dog-food/
+
+Mix the new food into the old one gradually over several days, increasing the new share step by step, and note how your dog's stool and appetite respond.
+
+### How long should a food elimination trial last?
+https://isler404.github.io/apps/pawfood/questions/how-long-should-an-elimination-diet-last/
+
+A review found that at least 8 weeks are needed to catch more than 90% of food-allergic dogs and cats. Your vet sets the length for your pet.
+
+### If my dog is allergic to chicken, can it have turkey or duck?
+https://isler404.github.io/apps/pawfood/questions/chicken-allergy-turkey-duck/
+
+Maybe not. Birds share similar proteins, and lab studies found most chicken-sensitized dogs also recognized turkey and duck. Ask your vet before trying.
+
+### Is brewers rice bad for dogs and cats?
+https://isler404.github.io/apps/pawfood/questions/is-brewers-rice-bad/
+
+No. Brewers rice is small broken pieces of rice kernels left from milling, a digestible carbohydrate source. It's a by-product, not a quality warning.
+
+### Is chicken fat okay for a dog with a chicken allergy?
+https://isler404.github.io/apps/pawfood/questions/is-chicken-fat-ok-for-dogs-with-chicken-allergy/
+
+Chicken fat carries far less protein than chicken meat, but not none. Whether a chicken-allergic dog can have it is a decision for your vet.
+
+### Is grain-free food better for dogs with allergies?
+https://isler404.github.io/apps/pawfood/questions/is-grain-free-better-for-allergies/
+
+Not automatically. Most reported dog food allergies involve animal proteins, not grains. Grain-free only helps if a grain is what your dog reacts to.
+
+### Is there an app to scan dog food ingredients for allergies?
+https://isler404.github.io/apps/pawfood/questions/app-to-scan-pet-food-ingredients-for-allergies/
+
+Yes. Pawfood is an iPhone app that scans dog and cat food labels and checks each ingredient against your pet's allergens and avoid list.
+
+### What are BHA, BHT and ethoxyquin in pet food?
+https://isler404.github.io/apps/pawfood/questions/bha-bht-ethoxyquin-in-pet-food/
+
+Synthetic antioxidants that keep fats from going rancid. BHA and BHT are permitted within limits; the EU no longer authorizes ethoxyquin in feed.
+
+### What are meat by-products in pet food?
+https://isler404.github.io/apps/pawfood/questions/what-are-meat-by-products/
+
+Meat by-products are clean animal parts other than muscle meat, such as organs, from mammals. The species isn't named, and the US term excludes poultry.
+
+### What are mixed tocopherols in pet food?
+https://isler404.github.io/apps/pawfood/questions/what-are-mixed-tocopherols/
+
+Mixed tocopherols are forms of vitamin E used as a natural preservative to slow fats going rancid. They usually come from vegetable oils, often soy.
+
+### What are the most common cat food allergens?
+https://isler404.github.io/apps/pawfood/questions/most-common-cat-food-allergens/
+
+In published studies, beef, fish and chicken were the most often reported food allergen sources in cats, followed by wheat. Not a risk ranking for your cat.
+
+### What are the most common dog food allergens?
+https://isler404.github.io/apps/pawfood/questions/most-common-dog-food-allergens/
+
+In published studies, beef, dairy, chicken and wheat were the most often reported food allergen sources in dogs. That isn't a ranking of risk for your dog.
+
+### What does 'complete and balanced' mean on pet food?
+https://isler404.github.io/apps/pawfood/questions/what-does-complete-and-balanced-mean/
+
+It means the food is designed to be the only diet for a stated life stage: it has all required nutrients (complete) in the right ratios (balanced).
+
+### What does 'crude protein' mean on dog food?
+https://isler404.github.io/apps/pawfood/questions/what-does-crude-protein-mean/
+
+Crude protein is total protein estimated from nitrogen content. 'Crude' refers to the lab method, not quality, and it includes plant and animal protein.
+
+### What does 'for intermittent or supplemental feeding only' mean?
+https://isler404.github.io/apps/pawfood/questions/intermittent-or-supplemental-feeding/
+
+The product isn't nutritionally complete, so it isn't meant as the main diet. Seen on treats, toppers and some wet foods; EU: 'complementary feed'.
+
+### What does 'limited ingredient' mean on pet food?
+https://isler404.github.io/apps/pawfood/questions/what-does-limited-ingredient-mean/
+
+It's a marketing term for a recipe with fewer ingredients, often one main protein. It has no set legal definition and isn't a medical claim.
+
+### What does 'meat and animal derivatives' mean on pet food?
+https://isler404.github.io/apps/pawfood/questions/what-are-meat-and-animal-derivatives/
+
+It's an EU category name covering meat, organs and by-products of farmed land animals. Unless the label names a species, you can't tell which animals.
+
+### What does 'poultry meal' mean on dog food?
+https://isler404.github.io/apps/pawfood/questions/what-does-poultry-meal-mean/
+
+Poultry meal is rendered, dried poultry tissue. 'Poultry' doesn't name the bird, so it may be chicken, turkey, duck or a mix.
+
+### What does the guaranteed analysis on pet food mean?
+https://isler404.github.io/apps/pawfood/questions/what-is-guaranteed-analysis/
+
+It lists minimum crude protein and fat and maximum fiber and moisture, as fed. They're limits, not exact amounts, and need converting to compare foods.
+
+### What is a novel protein diet?
+https://isler404.github.io/apps/pawfood/questions/what-is-a-novel-protein-diet/
+
+A novel protein diet uses a protein your pet has never eaten before, such as rabbit, venison or kangaroo, usually for a vet-led elimination trial.
+
+### What is animal digest in pet food?
+https://isler404.github.io/apps/pawfood/questions/what-is-animal-digest/
+
+Animal digest is animal tissue broken down by enzymes or heat into a liquid or powder flavor coating. The species is often not stated.
+
+### What is dry matter basis and how do I calculate it?
+https://isler404.github.io/apps/pawfood/questions/what-is-dry-matter-basis/
+
+Dry matter basis means a nutrient value with the water removed. Divide the label value by (100 − moisture) and multiply by 100.
+
+### What is pea protein and why is it in dog food?
+https://isler404.github.io/apps/pawfood/questions/what-is-pea-protein-in-dog-food/
+
+Pea protein is concentrated protein from peas. It raises the food's protein level at lower cost. It counts as plant protein, not meat.
+
+### What is taurine and why do cats need it?
+https://isler404.github.io/apps/pawfood/questions/why-do-cats-need-taurine/
+
+Taurine is an amino acid cats can't make in sufficient amounts, so it must come from food. Low taurine has been linked to heart and eye disease in cats.
+
+### What signs are reported in dogs and cats with food allergies?
+https://isler404.github.io/apps/pawfood/questions/signs-of-food-allergy-in-dogs-and-cats/
+
+Mostly itching (ears, paws, belly or face), recurring skin and ear infections, and sometimes vomiting or diarrhea. Your vet works out the reason.
+
+### What's the difference between 'beef', 'beef dinner', 'with beef' and 'beef flavor'?
+https://isler404.github.io/apps/pawfood/questions/beef-dinner-with-beef-beef-flavor/
+
+US naming rules tie the name to the amount: 'Beef' needs 95% beef (excluding water), 'Beef Dinner' 25%, 'with Beef' 3%, 'Beef Flavor' only a detectable amount.
+
+### What's the difference between chicken and chicken meal in pet food?
+https://isler404.github.io/apps/pawfood/questions/chicken-meal-vs-chicken/
+
+Chicken is fresh or frozen meat that is mostly water. Chicken meal is the same tissue rendered and dried, so it's a concentrated protein source.
+
+### Where do I find the calories on a pet food label?
+https://isler404.github.io/apps/pawfood/questions/where-are-calories-on-pet-food-label/
+
+Look for the calorie statement, usually 'kcal ME/kg' plus kcal per cup or can, near the guaranteed analysis. EU labels may show kcal per 100 g.
+
+### Why does wet food show less protein than dry food?
+https://isler404.github.io/apps/pawfood/questions/why-wet-food-has-less-protein/
+
+Because wet food is mostly water and label percentages include the water. Remove it (dry matter basis) and wet food often has as much protein or more.
+
+### Why isn't propylene glycol allowed in cat food?
+https://isler404.github.io/apps/pawfood/questions/propylene-glycol-in-cat-food/
+
+A US FDA regulation bars propylene glycol in or on cat food. In cats it has been associated with red blood cell changes. It's still used in some dog treats.
+
 ## Allergen families
 
 - [Barley on pet food labels — pearled barley, malt, barley grass and brewers yeast](https://isler404.github.io/apps/pawfood/allergies/barley/): How barley appears on cat and dog food labels, why malt and brewers yeast deserve a look, and how Pawfood flags barley and unclear grain terms.
