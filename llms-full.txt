@@ -251,3 +251,351 @@ A: No. IngrediLens is available for iPhone and iPad with iOS or iPadOS 17 or lat
 ## Reference
 
 - E-number lookup: https://ingredilensapp.com/e-kodlari/ (EU food additive codes with function and label notes)
+
+# Pawfood (full)
+
+> Pawfood is an iPhone app that scans dog and cat food labels and checks the ingredients against your pet's allergies and avoid list. It reads a barcode or a photo of the ingredient list (also on iPad) and matches every ingredient against the allergens, suspected sensitivities and avoid items the owner records for each pet. It explains vague terms such as "poultry" or "animal fat", compares foods on a dry matter basis and keeps a food journal. Privacy: pets, scans and journal stay on the device; no account, no ads, no tracking; buying or restoring Pawfood Plus sends an anonymous purchase record (random ID, no personal or pet data) to RevenueCat.
+
+## Key facts
+
+Key facts: iOS / iPadOS app, App Store https://apps.apple.com/app/id6831189714. Languages: English, Turkish, Spanish, Brazilian Portuguese, German, French. Free download with 3 scans; result status and allergen matches are always shown and brand recall notices are always free; optional Pawfood Plus subscription (Premium or Family, monthly or yearly, yearly with a 3-day free trial) adds unlimited scans, full ingredient breakdown with dry matter and carbohydrate estimates, comparison of up to 4 foods, food journal with vet report PDF. Four result states: "Match found", "Worth a closer look", "No recorded match" (never a safety statement), "Not enough data". Knowledge base: 767 ingredients, 76 allergen families, 14 species notes, editorial draft not reviewed by a veterinarian, sourced from AAFCO, FEDIAF, EU feed law, U.S. FDA, WSAVA, Merck Veterinary Manual and peer-reviewed papers. Not a veterinary service: no diagnosis or treatment. Product data: Open Pet Food Facts (ODbL); recall data: openFDA. Publisher: Opsis Digital, support@opsisdigital.com.
+
+## How results work
+
+- Match found: an ingredient belongs to a family or ingredient on the pet's list saved as a vet-confirmed allergy or as something the owner avoids, or a species alert applies (for example xylitol for dogs).
+- Worth a closer look: a vague label term could belong to a listed family ("poultry fat" for a pet with chicken listed), the item is saved as a suspected sensitivity, or a species review note applies.
+- No recorded match: nothing on the reported list matched the owner's records. It does not mean the food is safe or allergen-free; labels can be incomplete and cross-contact is not listed.
+- Not enough data: under 60% of the ingredients could be read or recognized.
+- Protein carryover (high, reduced, minimal, unknown) describes how much source protein a processed form is expected to carry; for vet-confirmed allergies a reduced-carryover form still matches, with an added note.
+- Dry matter value = as-fed value / (100 - moisture) x 100. Carbohydrates are estimated as 100 - protein - fat - fiber - moisture - ash, only when all five are on the label (missing values are never counted as zero).
+
+## FAQ
+
+Q: Does "No recorded match" mean the food is fine for my pet?
+A: No. It only means nothing on the reported ingredient list matched the items you saved. Labels can be incomplete, recipes change, and cross-contact from shared equipment is not listed. If your pet has a diagnosed allergy, check the food with your vet.
+
+Q: Why is "poultry fat" flagged when my dog is allergic to chicken?
+A: "Poultry" can be chicken, turkey, duck or other birds, and the label doesn't say which. Pawfood shows it as worth a closer look so you can ask the manufacturer. Rendered fats usually carry less protein than meat, but the amount is not stated on the label.
+
+Q: Can Pawfood tell me what my pet is allergic to?
+A: No. Pawfood doesn't diagnose, treat or prescribe diets. Food allergies are usually worked out with your veterinarian through an elimination diet. Pawfood helps you read labels and keep notes for that conversation.
+
+Q: Does it work for cats as well as dogs?
+A: Yes. Each pet has its own species, and some notes are species-specific, for example propylene glycol in cat food or the note when a cat food lists no added taurine.
+
+Q: Which languages and labels does it read?
+A: The app is in English, Turkish, Spanish, Brazilian Portuguese, German and French, and it recognizes ingredient names in those languages plus common Italian and Dutch names.
+
+Q: Do I need an account or internet connection?
+A: No account. Scanning and matching work offline. Barcode lookups and recall searches are optional and can be turned off in Settings.
+
+Q: Where does the ingredient information come from?
+A: From public sources such as AAFCO, FEDIAF, EU feed law, the U.S. FDA, WSAVA, the Merck Veterinary Manual and peer-reviewed papers, cited in the app under Sources & methods. Product data comes from Open Pet Food Facts (ODbL).
+
+## Guides (English, with summaries)
+
+### Food allergy or food intolerance? How they differ in dogs and cats
+https://isler404.github.io/apps/pawfood/guides/allergy-vs-intolerance/
+
+Food allergy involves the immune system; intolerance doesn't. Signs overlap, so only a vet-led elimination trial can tell them apart. What to know and note.
+
+### \"Poultry\", \"animal fat\", \"natural flavor\": vague pet food label terms explained
+https://isler404.github.io/apps/pawfood/guides/ambiguous-terms-poultry/
+
+Which pet food label terms don't name the animal, what each one can contain, why it matters for allergy lists, and how to get a straight answer from the manufacturer.
+
+### What "by-product" and "meal" really mean on a pet food label
+https://isler404.github.io/apps/pawfood/guides/by-products-and-meals/
+
+By-products and meals are defined feed terms, not insults. Learn what they include, why the species name matters and how to read them for allergies.
+
+### Most commonly reported food allergens in cats, and where they hide on labels
+https://isler404.github.io/apps/pawfood/guides/common-cat-food-allergens/
+
+Beef, fish and chicken top the published cat cases. What the numbers mean, why they aren't a risk ranking, and where those proteins hide on cat food labels.
+
+### Dry matter basis explained: how to compare wet and dry pet food
+https://isler404.github.io/apps/pawfood/guides/dry-matter-basis/
+
+What dry matter is, how to convert a guaranteed analysis step by step, how to estimate carbohydrates honestly, and the mistakes that make comparisons misleading.
+
+### Keeping a pet food journal: what to record and how to share it with your vet
+https://isler404.github.io/apps/pawfood/guides/food-journal-guide/
+
+A practical guide to logging foods, treats, symptoms, stool and weight in a way your vet can use, without reading too much into the patterns yourself.
+
+### Grain-free pet food: what the label means and what it doesn't
+https://isler404.github.io/apps/pawfood/guides/grain-free-explained/
+
+Grain-free means no cereal grains; it isn't a low-carb or allergy claim. What replaces grains, and what the FDA said about diet and DCM.
+
+### How to read a dog or cat food label, step by step
+https://isler404.github.io/apps/pawfood/guides/how-to-read-pet-food-labels/
+
+A practical walk through every part of a pet food label: product name rules, ingredient order, guaranteed analysis, the adequacy statement, feeding guide and the small print.
+
+### Hydrolyzed protein diets: how they work and what the label tells you
+https://isler404.github.io/apps/pawfood/guides/hydrolyzed-protein-diets/
+
+Hydrolysis breaks proteins into small pieces the immune system is less likely to recognize. Less likely is not never: what studies found, what to ask.
+
+### Preservatives in pet food: mixed tocopherols, BHA, BHT and ethoxyquin
+https://isler404.github.io/apps/pawfood/guides/preservatives-explained/
+
+A neutral look at why pet foods contain preservatives, how natural and synthetic antioxidants differ, what the rules say and how to read them on a label.
+
+### Puppy and kitten food labels: growth, all life stages and large breeds
+https://isler404.github.io/apps/pawfood/guides/puppy-kitten-food-labels/
+
+What to check on a puppy or kitten food label, from the growth statement and the large-breed wording to calories, calcium and feeding guides.
+
+### Senior pet food labels: what "senior" does and doesn't tell you
+https://isler404.github.io/apps/pawfood/guides/senior-pet-food-labels/
+
+There is no separate legal standard for senior pet food. Learn what to check on the label instead, from calories and protein to joint claims and missing values.
+
+### How treats and toppers can undo an allergy diet
+https://isler404.github.io/apps/pawfood/guides/treats-and-toppers/
+
+Treats, chews, toppers and flavoured extras often carry the very proteins a diet avoids. Here is how to check them and keep a diet trial consistent.
+
+### Wet vs dry pet food: how to compare the labels fairly
+https://isler404.github.io/apps/pawfood/guides/wet-vs-dry-food-labels/
+
+Wet food looks low in protein because it is mostly water. Learn to compare canned and dry labels on a dry matter and calorie basis, step by step.
+
+## Rehberler (Türkçe)
+
+- [Mama alerjisi mi, intolerans mı? Kedi ve köpeklerde fark](https://isler404.github.io/apps/pawfood/tr/guides/allergy-vs-intolerance/): Mama alerjisinde bağışıklık sistemi devrededir, intoleransta değil. Belirtiler benzediği için ayrımı veteriner kontrolünde eliminasyon denemesi yapar.
+- [\"Kanatlı\", \"hayvansal yağ\", \"doğal aroma\": mama etiketindeki belirsiz terimler](https://isler404.github.io/apps/pawfood/tr/guides/belirsiz-terimler-kanatli-hayvansal-yag/): Hangi mama etiketi terimleri hayvanın adını vermez, her biri neyi içerebilir, alerji listeleri için neden önemlidir ve üreticiden net yanıt nasıl alınır.
+- [Mama etiketinde "yan ürün" ve "un" gerçekte ne anlama gelir](https://isler404.github.io/apps/pawfood/tr/guides/by-products-and-meals/): Yan ürün ve un tanımlı yem terimleridir, hakaret değil. Neleri kapsadıklarını, hayvan adının neden önemli olduğunu ve alerji açısından nasıl okunacağını öğren.
+- [Kedilerde en sık bildirilen mama alerjenleri ve etikette nerede saklandıkları](https://isler404.github.io/apps/pawfood/tr/guides/common-cat-food-allergens/): Yayımlanmış kedi vakalarında sığır eti, balık ve tavuk başı çekiyor. Rakamlar ne anlatır, neden risk sıralaması değildir, bu proteinler etikette nerede gizlenir?
+- [Kuru madde nedir, nasıl hesaplanır: yaş ve kuru mamayı karşılaştırmak](https://isler404.github.io/apps/pawfood/tr/guides/kuru-madde-nedir-nasil-hesaplanir/): Kuru maddenin ne olduğu, analitik bileşenlerin adım adım nasıl çevrileceği, karbonhidratın dürüstçe nasıl tahmin edileceği ve karşılaştırmayı yanıltan hatalar.
+- [Mama günlüğü tutmak: ne kaydetmeli, veterinerle nasıl paylaşmalı](https://isler404.github.io/apps/pawfood/tr/guides/food-journal-guide/): Mamayı, ödülleri, belirtileri, dışkıyı ve kiloyu veterinerinin kullanabileceği şekilde kaydetmek için pratik bir rehber; örüntüleri tek başına yorumlamadan.
+- [Tahılsız mama: etiket ne söyler, ne söylemez](https://isler404.github.io/apps/pawfood/tr/guides/grain-free-explained/): Tahılsız, mamada tahıl olmadığını söyler; düşük karbonhidrat ya da alerji iddiası değildir. Yerine ne konur ve FDA'nın DCM incelemesi neler söyledi?
+- [Kedi ve köpek maması etiketi adım adım nasıl okunur](https://isler404.github.io/apps/pawfood/tr/guides/mama-etiketi-nasil-okunur/): Mama etiketinin her bölümünü pratik olarak anlatır: ürün adı kuralları, içerik sırası, analitik bileşenler, yeterlilik beyanı, besleme önerisi ve küçük yazılar.
+- [Hidrolize protein diyetleri: nasıl çalışır, etiket ne söyler?](https://isler404.github.io/apps/pawfood/tr/guides/hydrolyzed-protein-diets/): Hidroliz proteini küçük parçalara ayırır; bağışıklık sisteminin onu tanıma ihtimali azalır ama sıfırlanmaz. Çalışmalar ne buldu, veterinerine ne sormalısın?
+- [Mamalarda koruyucular: karışık tokoferoller, BHA, BHT ve etoksikin](https://isler404.github.io/apps/pawfood/tr/guides/preservatives-explained/): Mamalarda neden koruyucu bulunduğuna, doğal ve sentetik antioksidanların farkına, kuralların ne dediğine ve etikette nasıl okunacağına tarafsız bir bakış.
+- [Yavru köpek ve yavru kedi maması etiketi: büyüme, tüm yaşam evreleri ve büyük ırklar](https://isler404.github.io/apps/pawfood/tr/guides/puppy-kitten-food-labels/): Yavru köpek ya da yavru kedi maması etiketinde nelere bakmalı: büyüme beyanı, büyük ırk ifadesi, kalori, kalsiyum ve besleme önerisi.
+- [Yaşlı hayvan maması etiketi: "yaşlı" ne söyler, ne söylemez](https://isler404.github.io/apps/pawfood/tr/guides/senior-pet-food-labels/): Yaşlı hayvan maması için ayrı bir yasal standart yok. Etikette onun yerine nelere bakacağını öğren: kalori, protein, eklem iddiaları ve eksik değerler.
+- [Ödül mamaları ve mama üstü katkılar alerji diyetini nasıl bozar](https://isler404.github.io/apps/pawfood/tr/guides/treats-and-toppers/): Ödül mamaları, çiğneme ürünleri, mama üstü katkılar ve aromalı ekstralar çoğu zaman diyetin kaçındığı proteinleri taşır. Nasıl kontrol edeceğini öğren.
+- [Yaş mama mı, kuru mama mı: etiketleri adil karşılaştırmak](https://isler404.github.io/apps/pawfood/tr/guides/wet-vs-dry-food-labels/): Yaş mamada protein düşük görünür, çünkü büyük kısmı sudur. Konserve ve kuru mama etiketlerini kuru madde ve kalori bazında adım adım karşılaştır.
+
+## Allergen families
+
+- [Barley on pet food labels — pearled barley, malt, barley grass and brewers yeast](https://isler404.github.io/apps/pawfood/allergies/barley/): How barley appears on cat and dog food labels, why malt and brewers yeast deserve a look, and how Pawfood flags barley and unclear grain terms.
+- [Beef allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/beef/): Beef allergy in dogs and cats: every label name for beef and veal, vague meat terms, tallow and gelatin, chews and a label checklist.
+- [Bison allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/bison/): Bison allergy or avoidance in dogs and cats: KB label names for bison, why bison recipes may hold other meats, and a label checklist.
+- [Chicken allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/chicken/): Chicken allergy in dogs and cats: every label name for chicken, vague terms like poultry, fat and hydrolyzed forms, and a label checklist.
+- [Corn (maize) on pet food labels — names, by-products and what to check](https://isler404.github.io/apps/pawfood/allergies/corn/): Corn appears on pet food labels as meal, gluten meal, bran, starch, oil and more. See every name, the unclear terms and how Pawfood flags them.
+- [Dairy allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/dairy/): Dairy allergy in dogs and cats: every label name for milk, whey, casein, cheese and yogurt, lactose, goat milk and a label checklist.
+- [Duck allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/duck/): Duck allergy in dogs and cats: every label name for duck, duck fat in other recipes, vague poultry terms and a label checklist.
+- [Egg allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/egg/): Egg allergy in dogs and cats: every label name for egg, yolk, egg white and dried egg, eggshell membrane, lecithin and a label checklist.
+- [Fish allergy in dogs and cats: salmon, whitefish, tuna and more on the label](https://isler404.github.io/apps/pawfood/allergies/fish/): Fish allergy in dogs and cats: KB names for salmon, whitefish, tuna, sardine and other fish, fish oil, vague seafood terms and a checklist.
+- [Gluten grains on pet food labels — wheat, barley, rye and unclear terms](https://isler404.github.io/apps/pawfood/allergies/gluten/): Which pet food ingredients count as gluten grains (wheat, barley, rye), which are only possible matches, and why oats and starches need a closer look.
+- [Goat allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/goat/): Goat meat allergy or avoidance in dogs and cats: KB label names for goat, why goat milk is listed under dairy, vague terms and a checklist.
+- [Horse allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/horse/): Horse meat allergy or avoidance in dogs and cats: KB label names for horse, vague meat terms on EU labels, and a label checklist.
+- [Insect protein allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/insect/): Insect protein allergy or avoidance in dogs and cats: KB names for black soldier fly larvae, mealworm and cricket, and a label checklist.
+- [Kangaroo allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/kangaroo/): Kangaroo allergy or avoidance in dogs and cats: KB label names for kangaroo, why novel-protein recipes still need checking, and a checklist.
+- [Lamb and mutton allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/lamb/): Lamb allergy in dogs and cats: every label name for lamb and mutton, vague meat terms, lamb fat, chews and a label checklist.
+- [Oats on pet food labels — oatmeal, oat bran, oat fiber and cat grass](https://isler404.github.io/apps/pawfood/allergies/oat/): How oats appear on cat and dog food labels, what oat fiber and cat grass are, why oats and gluten are linked, and how Pawfood flags them.
+- [Peas on pet food labels — pea protein, starch, fiber and split names](https://isler404.github.io/apps/pawfood/allergies/pea/): Peas appear on pet food labels as whole peas, pea protein, starch and fiber, often several times in one list. See every name and how Pawfood flags them.
+- [Pork allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/pork/): Pork allergy in dogs and cats: every label name for pork and wild boar, gelatin and plasma, pig ears and skins, vague terms and a checklist.
+- [Potato on pet food labels — dried potato, starch, protein and fiber](https://isler404.github.io/apps/pawfood/allergies/potato/): How potato appears on cat and dog food labels, from dried potato to potato starch and protein, which terms are unclear, and how Pawfood flags them.
+- [Poultry allergy in dogs and cats: chicken, turkey, duck and other birds on the label](https://isler404.github.io/apps/pawfood/allergies/poultry/): Avoiding all poultry for a dog or cat? Every KB name for chicken, turkey, duck, goose, quail and generic poultry, plus vague terms and a label checklist.
+- [Rabbit allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/rabbit/): Rabbit allergy or avoidance in dogs and cats: KB label names for rabbit, rabbit ears, vague meat terms and a label checklist.
+- [Rice on pet food labels — brown, brewers, flour, protein and bran](https://isler404.github.io/apps/pawfood/allergies/rice/): Rice shows up on pet food labels as brown or brewers rice, flour, bran, protein and starch. See every name, the unclear terms and how Pawfood flags them.
+- [Shellfish allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/shellfish/): Shellfish allergy or avoidance in dogs and cats: KB names for krill, shrimp, crab, squid and mussels, glucosamine, omega-3 and a checklist.
+- [Soy on pet food labels — meal, isolate, oil, lecithin and hidden sources](https://isler404.github.io/apps/pawfood/allergies/soy/): Soy appears on pet food labels as soybean meal, protein isolate, oil, lecithin and more. See every name, the unclear terms and why some minerals are flagged.
+- [Turkey allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/turkey/): Turkey allergy in dogs and cats: every label name for turkey, why poultry and meat wordings are uncertain, and a label checklist with treat tips.
+- [Venison (deer, elk, reindeer) allergy in dogs and cats: what to check on the label](https://isler404.github.io/apps/pawfood/allergies/venison/): Venison allergy or avoidance in dogs and cats: KB names for deer, elk and reindeer, antler chews, vague meat terms and a label checklist.
+- [Wheat on pet food labels — names, forms and what to check](https://isler404.github.io/apps/pawfood/allergies/wheat/): How wheat shows up on cat and dog food labels, from flour and gluten to bran and starch, plus unclear terms worth a closer look.
+
+## Ingredients (English)
+
+### Chicken and other poultry
+
+- [Chicken](https://isler404.github.io/apps/pawfood/ingredients/chicken/): Chicken meat or flesh, which carries chicken protein. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken meal](https://isler404.github.io/apps/pawfood/ingredients/chicken-meal/): Rendered and dried chicken tissue concentrated into a protein meal. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken by-product meal](https://isler404.github.io/apps/pawfood/ingredients/chicken-by-product-meal/): Rendered meal from chicken parts other than muscle meat, such as organs and frames. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken by-products](https://isler404.github.io/apps/pawfood/ingredients/chicken-by-products/): Non-muscle chicken parts such as organs, used fresh or frozen. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken fat](https://isler404.github.io/apps/pawfood/ingredients/chicken-fat/): Rendered chicken fat; mostly lipid, with lower but not zero protein content. Family: Chicken, Poultry (any). Protein carryover: reduced.
+- [Hydrolyzed chicken protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-chicken-protein/): Chicken protein broken down into smaller peptides; the degree of hydrolysis varies by product. Family: Chicken, Poultry (any). Protein carryover: reduced.
+- [Hydrolyzed chicken liver](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-chicken-liver/): Chicken liver broken down by hydrolysis, often used as a palatability enhancer. Family: Chicken, Poultry (any). Protein carryover: reduced.
+- [Chicken liver](https://isler404.github.io/apps/pawfood/ingredients/chicken-liver/): Chicken liver, an organ meat that carries chicken protein. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken broth](https://isler404.github.io/apps/pawfood/ingredients/chicken-broth/): Liquid made by simmering chicken, which contains soluble chicken protein. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Chicken digest](https://isler404.github.io/apps/pawfood/ingredients/chicken-digest/): Chicken tissue broken down by enzymes or heat, commonly used as a palatability enhancer. Family: Chicken, Poultry (any). Protein carryover: high.
+- [Natural chicken flavor](https://isler404.github.io/apps/pawfood/ingredients/natural-chicken-flavor/): Flavouring derived from chicken, which may contain small amounts of chicken protein. Family: Chicken, Poultry (any). Protein carryover: reduced.
+- [Turkey](https://isler404.github.io/apps/pawfood/ingredients/turkey/): Turkey meat or flesh, which carries turkey protein. Family: Turkey, Poultry (any). Protein carryover: high.
+- [Turkey meal](https://isler404.github.io/apps/pawfood/ingredients/turkey-meal/): Rendered and dried turkey tissue concentrated into a protein meal. Family: Turkey, Poultry (any). Protein carryover: high.
+- [Duck](https://isler404.github.io/apps/pawfood/ingredients/duck/): Duck meat or flesh, which carries duck protein. Family: Duck, Poultry (any). Protein carryover: high.
+- [Poultry](https://isler404.github.io/apps/pawfood/ingredients/poultry/): Poultry meat or flesh, which carries poultry protein; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: high.
+- [Poultry meal](https://isler404.github.io/apps/pawfood/ingredients/poultry-meal/): Rendered and dried poultry tissue concentrated into a protein meal; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: high.
+- [Poultry by-product meal](https://isler404.github.io/apps/pawfood/ingredients/poultry-by-product-meal/): Rendered meal from poultry parts other than muscle meat, such as organs and frames; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: high.
+- [Poultry fat](https://isler404.github.io/apps/pawfood/ingredients/poultry-fat/): Rendered poultry fat; mostly lipid, with lower but not zero protein content; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: reduced.
+- [Hydrolyzed poultry protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-poultry-protein/): Poultry protein broken down into smaller peptides; the degree of hydrolysis varies by product; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: reduced.
+- [Poultry digest](https://isler404.github.io/apps/pawfood/ingredients/poultry-digest/): Poultry tissue broken down by enzymes or heat, commonly used as a palatability enhancer; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: high.
+- [Natural poultry flavor](https://isler404.github.io/apps/pawfood/ingredients/natural-poultry-flavor/): Flavouring derived from poultry, which may contain small amounts of poultry protein; the exact species is not stated on the label. Family: Poultry (any). Could be: Chicken, Turkey, Duck, Goose, Quail, Pheasant, Guinea fowl. Protein carryover: reduced.
+
+### Beef, lamb, pork and other meats
+
+- [Beef](https://isler404.github.io/apps/pawfood/ingredients/beef/): Beef meat or flesh, which carries beef protein. Family: Beef. Protein carryover: high.
+- [Beef meal](https://isler404.github.io/apps/pawfood/ingredients/beef-meal/): Rendered and dried beef tissue concentrated into a protein meal. Family: Beef. Protein carryover: high.
+- [Beef fat](https://isler404.github.io/apps/pawfood/ingredients/beef-fat/): Rendered beef fat; mostly lipid, with lower but not zero protein content. Family: Beef. Protein carryover: reduced.
+- [Beef liver](https://isler404.github.io/apps/pawfood/ingredients/beef-liver/): Beef liver, an organ meat that carries beef protein. Family: Beef. Protein carryover: high.
+- [Bison](https://isler404.github.io/apps/pawfood/ingredients/bison/): Bison meat or flesh, which carries bison protein. Family: Bison. Protein carryover: high.
+- [Lamb](https://isler404.github.io/apps/pawfood/ingredients/lamb/): Lamb meat or flesh, which carries lamb protein. Family: Lamb / sheep. Protein carryover: high.
+- [Lamb meal](https://isler404.github.io/apps/pawfood/ingredients/lamb-meal/): Rendered and dried lamb tissue concentrated into a protein meal. Family: Lamb / sheep. Protein carryover: high.
+- [Lamb fat](https://isler404.github.io/apps/pawfood/ingredients/lamb-fat/): Rendered lamb fat; mostly lipid, with lower but not zero protein content. Family: Lamb / sheep. Protein carryover: reduced.
+- [Venison](https://isler404.github.io/apps/pawfood/ingredients/venison/): Venison meat or flesh, which carries venison protein. Family: Venison (deer). Protein carryover: high.
+- [Pork](https://isler404.github.io/apps/pawfood/ingredients/pork/): Pork meat or flesh, which carries pork protein. Family: Pork. Protein carryover: high.
+- [Pork meal](https://isler404.github.io/apps/pawfood/ingredients/pork-meal/): Rendered and dried pork tissue concentrated into a protein meal. Family: Pork. Protein carryover: high.
+- [Rabbit](https://isler404.github.io/apps/pawfood/ingredients/rabbit/): Rabbit meat or flesh, which carries rabbit protein. Family: Rabbit. Protein carryover: high.
+- [Kangaroo](https://isler404.github.io/apps/pawfood/ingredients/kangaroo/): Kangaroo meat or flesh, which carries kangaroo protein. Family: Kangaroo. Protein carryover: high.
+
+### Fish and seafood
+
+- [Fish](https://isler404.github.io/apps/pawfood/ingredients/fish/): Fish meat or flesh, which carries fish protein; the exact species is not stated on the label. Family: Fish (any). Could be: Salmon, Trout, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Haddock, Hake, Whiting, Flatfish (plaice, sole, flounder), Hoki, Tilapia, Catfish, Tuna, Mackerel, Sardine / pilchard, Herring, Anchovy, Menhaden, Sprat, Capelin. Protein carryover: high.
+- [Fish meal](https://isler404.github.io/apps/pawfood/ingredients/fish-meal/): Rendered and dried fish tissue concentrated into a protein meal; the exact species is not stated on the label. Family: Fish (any). Could be: Salmon, Trout, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Haddock, Hake, Whiting, Flatfish (plaice, sole, flounder), Hoki, Tilapia, Catfish, Tuna, Mackerel, Sardine / pilchard, Herring, Anchovy, Menhaden, Sprat, Capelin. Protein carryover: high.
+- [Fish oil](https://isler404.github.io/apps/pawfood/ingredients/fish-oil/): Oil extracted from fish; mostly lipid, with lower but not zero protein content; the exact species is not stated on the label. Family: Fish (any). Could be: Salmon, Trout, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Haddock, Hake, Whiting, Flatfish (plaice, sole, flounder), Hoki, Tilapia, Catfish, Tuna, Mackerel, Sardine / pilchard, Herring, Anchovy, Menhaden, Sprat, Capelin. Protein carryover: reduced.
+- [Hydrolyzed fish protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-fish-protein/): Fish protein broken down into smaller peptides; the degree of hydrolysis varies by product; the exact species is not stated on the label. Family: Fish (any). Could be: Salmon, Trout, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Haddock, Hake, Whiting, Flatfish (plaice, sole, flounder), Hoki, Tilapia, Catfish, Tuna, Mackerel, Sardine / pilchard, Herring, Anchovy, Menhaden, Sprat, Capelin. Protein carryover: reduced.
+- [Fish by-products](https://isler404.github.io/apps/pawfood/ingredients/fish-by-products/): Non-muscle fish parts from species that are not stated. Family: Fish (any). Could be: Salmon, Tuna, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Herring, Sardine / pilchard, Anchovy, Mackerel. Protein carryover: high.
+- [Ocean fish](https://isler404.github.io/apps/pawfood/ingredients/ocean-fish/): Fish from the sea whose species is not stated. Family: Fish (any). Could be: Salmon, Tuna, Whitefish (white-fleshed fish), Cod, Pollock / saithe, Herring, Sardine / pilchard, Anchovy, Mackerel, Menhaden. Protein carryover: high.
+- [Salmon](https://isler404.github.io/apps/pawfood/ingredients/salmon/): Salmon meat or flesh, which carries salmon protein. Family: Salmon, Fish (any). Protein carryover: high.
+- [Salmon meal](https://isler404.github.io/apps/pawfood/ingredients/salmon-meal/): Rendered and dried salmon tissue concentrated into a protein meal. Family: Salmon, Fish (any). Protein carryover: high.
+- [Salmon oil](https://isler404.github.io/apps/pawfood/ingredients/salmon-oil/): Oil extracted from salmon; mostly lipid, with lower but not zero protein content. Family: Salmon, Fish (any). Protein carryover: reduced.
+- [Hydrolyzed salmon protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-salmon-protein/): Salmon protein broken down into smaller peptides; the degree of hydrolysis varies by product. Family: Salmon, Fish (any). Protein carryover: reduced.
+- [Tuna](https://isler404.github.io/apps/pawfood/ingredients/tuna/): Tuna meat or flesh, which carries tuna protein. Family: Tuna, Fish (any). Protein carryover: high.
+- [Whitefish](https://isler404.github.io/apps/pawfood/ingredients/whitefish/): Whitefish meat or flesh, which carries whitefish protein. Family: Whitefish (white-fleshed fish), Fish (any). Could be: Cod, Pollock / saithe, Haddock, Hake, Whiting, Flatfish (plaice, sole, flounder), Hoki, Tilapia, Catfish. Protein carryover: high.
+- [Menhaden meal](https://isler404.github.io/apps/pawfood/ingredients/menhaden-meal/): Rendered and dried menhaden tissue concentrated into a protein meal. Family: Menhaden, Fish (any). Protein carryover: high.
+- [Cod liver oil](https://isler404.github.io/apps/pawfood/ingredients/cod-liver-oil/): Oil from cod liver containing vitamins A and D and omega-3 fatty acids; protein content is low but not zero. Family: Cod, Whitefish (white-fleshed fish), Fish (any). Protein carryover: reduced.
+- [Krill oil](https://isler404.github.io/apps/pawfood/ingredients/krill-oil/): Oil extracted from krill; mostly lipid, with lower but not zero protein content. Family: Shellfish (crustaceans, molluscs). Protein carryover: reduced.
+- [Green-lipped mussel](https://isler404.github.io/apps/pawfood/ingredients/green-lipped-mussel/): Dried New Zealand green-lipped mussel, a source of omega-3 fatty acids and glycosaminoglycans that carries shellfish protein. Family: Shellfish (crustaceans, molluscs). Protein carryover: high.
+
+### Unnamed animal sources
+
+- [Meat](https://isler404.github.io/apps/pawfood/ingredients/meat/): Non-specific meat from one or more animal species that the label does not name. Family: none. Could be: Beef, Pork, Lamb / sheep, Chicken, Turkey, Duck, Goat, Venison (deer), Rabbit, Horse, Poultry (any). Protein carryover: high.
+- [Meat and animal derivatives](https://isler404.github.io/apps/pawfood/ingredients/meat-and-animal-derivatives/): EU category term for meat and animal by-products whose species are not named unless declared, for example "of which chicken 4%". Family: none. Could be: Beef, Pork, Lamb / sheep, Chicken, Turkey, Duck, Goat, Venison (deer), Rabbit, Horse, Poultry (any). Protein carryover: high.
+- [Meat meal](https://isler404.github.io/apps/pawfood/ingredients/meat-meal/): Rendered meal from mammal tissue whose species is not stated; AAFCO excludes poultry from this term. Family: none. Could be: Beef, Pork, Lamb / sheep, Goat, Horse, Venison (deer). Protein carryover: high.
+- [Meat by-products](https://isler404.github.io/apps/pawfood/ingredients/meat-by-products/): Non-muscle mammal parts such as organs from species that are not stated; AAFCO excludes poultry from this term. Family: none. Could be: Beef, Pork, Lamb / sheep, Goat, Venison (deer). Protein carryover: high.
+- [Meat by-product meal](https://isler404.github.io/apps/pawfood/ingredients/meat-by-product-meal/): Rendered meal from animal parts other than muscle meat, from species that are not stated. Family: none. Could be: Beef, Pork, Lamb / sheep, Goat, Venison (deer), Poultry (any), Chicken. Protein carryover: high.
+- [Animal protein](https://isler404.github.io/apps/pawfood/ingredients/animal-protein/): Non-specific animal protein whose source species is not stated. Family: none. Could be: Beef, Pork, Lamb / sheep, Chicken, Turkey, Duck, Poultry (any), Fish (any), Egg, Dairy (milk). Protein carryover: high.
+- [Hydrolyzed animal protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-animal-protein/): Animal protein broken into smaller peptides whose source species is not stated. Family: none. Could be: Beef, Pork, Chicken, Poultry (any), Fish (any). Protein carryover: reduced.
+- [Animal fat](https://isler404.github.io/apps/pawfood/ingredients/animal-fat/): Rendered fat from animal species that are not stated; mostly lipid, with lower but not zero protein content. Family: none. Could be: Beef, Pork, Lamb / sheep, Chicken, Poultry (any), Fish (any). Protein carryover: reduced.
+- [Tallow](https://isler404.github.io/apps/pawfood/ingredients/tallow/): Rendered fat usually from cattle or sheep; species is not always stated. Family: none. Could be: Beef, Lamb / sheep, Goat. Protein carryover: reduced.
+- [Animal digest](https://isler404.github.io/apps/pawfood/ingredients/animal-digest/): Animal tissue broken down by enzymes or heat and used for palatability; source species is often not stated. Family: none. Could be: Beef, Pork, Chicken, Poultry (any), Fish (any), Lamb / sheep. Protein carryover: high.
+- [Liver](https://isler404.github.io/apps/pawfood/ingredients/liver/): Liver whose source species is not stated on the label. Family: none. Could be: Beef, Pork, Lamb / sheep, Chicken, Turkey, Poultry (any). Protein carryover: high.
+- [Animal plasma](https://isler404.github.io/apps/pawfood/ingredients/animal-plasma/): Dried blood plasma whose source species is not stated. Family: none. Could be: Pork, Beef, Chicken, Poultry (any). Protein carryover: high.
+- [Blood meal](https://isler404.github.io/apps/pawfood/ingredients/blood-meal/): Dried blood whose source species is often not stated. Family: none. Could be: Pork, Beef, Chicken, Poultry (any). Protein carryover: high.
+- [Gelatin](https://isler404.github.io/apps/pawfood/ingredients/gelatin/): Processed collagen used for texture; source species is often not stated. Family: none. Could be: Beef, Pork, Fish (any), Chicken. Protein carryover: reduced.
+- [Collagen](https://isler404.github.io/apps/pawfood/ingredients/collagen/): Collagen protein, often hydrolyzed; source species is often not stated. Family: none. Could be: Beef, Pork, Fish (any), Chicken. Protein carryover: reduced.
+- [Bone broth](https://isler404.github.io/apps/pawfood/ingredients/bone-broth/): Liquid made by simmering bones whose species is not stated. Family: none. Could be: Beef, Chicken, Pork, Turkey, Poultry (any). Protein carryover: high.
+- [Broth](https://isler404.github.io/apps/pawfood/ingredients/broth/): Cooking liquid from animal tissue whose species is not stated. Family: none. Could be: Beef, Chicken, Pork, Turkey, Fish (any), Poultry (any). Protein carryover: high.
+- [Bone meal](https://isler404.github.io/apps/pawfood/ingredients/bone-meal/): Ground bone used mainly as a calcium and phosphorus source; species is often not stated. Family: none. Could be: Beef, Pork, Chicken, Poultry (any). Protein carryover: reduced.
+
+### Egg, dairy and insects
+
+- [Egg](https://isler404.github.io/apps/pawfood/ingredients/egg/): Whole hen's egg, which carries egg white and yolk proteins. Family: Egg. Protein carryover: high.
+- [Dried egg product](https://isler404.github.io/apps/pawfood/ingredients/dried-egg-product/): Dried whole egg or egg parts, which carries egg proteins. Family: Egg. Protein carryover: high.
+- [Eggshell membrane](https://isler404.github.io/apps/pawfood/ingredients/eggshell-membrane/): The inner membrane of the eggshell, a source of collagen and glucosamine that may carry egg protein. Family: Egg. Protein carryover: reduced.
+- [Milk](https://isler404.github.io/apps/pawfood/ingredients/milk/): Cow's milk, which carries milk proteins such as casein and whey proteins. Family: Dairy (milk). Protein carryover: high.
+- [Whey](https://isler404.github.io/apps/pawfood/ingredients/whey/): The liquid part of milk left after cheesemaking, which carries whey proteins. Family: Dairy (milk). Protein carryover: high.
+- [Casein](https://isler404.github.io/apps/pawfood/ingredients/casein/): The main protein of milk, sometimes added as caseinate. Family: Dairy (milk). Protein carryover: high.
+- [Cheese](https://isler404.github.io/apps/pawfood/ingredients/cheese/): Cheese made from milk, which carries milk proteins. Family: Dairy (milk). Protein carryover: high.
+- [Lactose](https://isler404.github.io/apps/pawfood/ingredients/lactose/): Milk sugar; purified lactose carries little milk protein, but traces are possible. Family: none. Could be: Dairy (milk). Protein carryover: minimal.
+- [Black soldier fly larvae meal](https://isler404.github.io/apps/pawfood/ingredients/black-soldier-fly-larvae-meal/): Dried and ground black soldier fly larvae, an insect protein meal. Family: Insect protein. Protein carryover: high.
+
+### Grains
+
+- [Wheat](https://isler404.github.io/apps/pawfood/ingredients/wheat/): Wheat grain, which carries wheat proteins including gluten. Family: Wheat, Gluten grains (wheat, barley, rye), Cereal grains (any). Protein carryover: high.
+- [Wheat flour](https://isler404.github.io/apps/pawfood/ingredients/wheat-flour/): Milled wheat, which carries wheat proteins including gluten. Family: Wheat, Gluten grains (wheat, barley, rye), Cereal grains (any). Protein carryover: high.
+- [Wheat gluten](https://isler404.github.io/apps/pawfood/ingredients/wheat-gluten/): Concentrated wheat protein (gluten). Family: Wheat, Gluten grains (wheat, barley, rye), Cereal grains (any). Protein carryover: high.
+- [Corn](https://isler404.github.io/apps/pawfood/ingredients/corn/): Corn (maize) grain, which carries corn proteins. Family: Corn (maize), Cereal grains (any). Protein carryover: high.
+- [Corn meal](https://isler404.github.io/apps/pawfood/ingredients/corn-meal/): Ground corn, which carries corn proteins. Family: Corn (maize), Cereal grains (any). Protein carryover: high.
+- [Corn gluten meal](https://isler404.github.io/apps/pawfood/ingredients/corn-gluten-meal/): Concentrated corn protein left after starch extraction; corn "gluten" is not wheat gluten. Family: Corn (maize), Cereal grains (any). Protein carryover: high.
+- [Rice](https://isler404.github.io/apps/pawfood/ingredients/rice/): Rice grain, which carries rice proteins. Family: Rice, Cereal grains (any). Protein carryover: high.
+- [Brewers rice](https://isler404.github.io/apps/pawfood/ingredients/brewers-rice/): Broken rice fragments left from rice milling. Family: Rice, Cereal grains (any). Protein carryover: high.
+- [Brown rice](https://isler404.github.io/apps/pawfood/ingredients/brown-rice/): Whole-grain rice with the bran layer, which carries rice proteins. Family: Rice, Cereal grains (any). Protein carryover: high.
+- [Rice bran](https://isler404.github.io/apps/pawfood/ingredients/rice-bran/): Outer layer of the rice grain, used for fiber and fat. Family: Rice, Cereal grains (any). Protein carryover: high.
+- [Barley](https://isler404.github.io/apps/pawfood/ingredients/barley/): Barley grain, which carries barley proteins including gluten-type proteins. Family: Barley, Gluten grains (wheat, barley, rye), Cereal grains (any). Protein carryover: high.
+- [Oats](https://isler404.github.io/apps/pawfood/ingredients/oats/): Oat grain; oats may be cross-contaminated with gluten grains unless certified. Family: Oats, Cereal grains (any). Could be: Gluten grains (wheat, barley, rye). Protein carryover: high.
+- [Sorghum](https://isler404.github.io/apps/pawfood/ingredients/sorghum/): Sorghum grain, a gluten-free cereal. Family: Sorghum, Cereal grains (any). Protein carryover: high.
+- [Cereals](https://isler404.github.io/apps/pawfood/ingredients/cereals/): Non-specific cereal grains; the label does not say which grains are used. Family: Cereal grains (any). Could be: Wheat, Corn (maize), Rice, Barley, Oats, Rye, Sorghum, Millet, Gluten grains (wheat, barley, rye). Protein carryover: high.
+
+### Legumes, potatoes and other starches
+
+- [Peas](https://isler404.github.io/apps/pawfood/ingredients/peas/): Peas, a pulse that carries pea proteins. Family: Pea, Legumes / pulses (any). Protein carryover: high.
+- [Pea protein](https://isler404.github.io/apps/pawfood/ingredients/pea-protein/): Concentrated pea protein. Family: Pea, Legumes / pulses (any). Protein carryover: high.
+- [Pea starch](https://isler404.github.io/apps/pawfood/ingredients/pea-starch/): Starch extracted from peas; some pea protein can remain. Family: Pea, Legumes / pulses (any). Protein carryover: reduced.
+- [Pea fiber](https://isler404.github.io/apps/pawfood/ingredients/pea-fiber/): Fiber from pea hulls; some pea protein can remain. Family: Pea, Legumes / pulses (any). Protein carryover: reduced.
+- [Lentils](https://isler404.github.io/apps/pawfood/ingredients/lentils/): Lentils, a pulse that carries lentil proteins. Family: Lentil, Legumes / pulses (any). Protein carryover: high.
+- [Chickpeas](https://isler404.github.io/apps/pawfood/ingredients/chickpeas/): Chickpeas, a pulse that carries chickpea proteins. Family: Chickpea, Legumes / pulses (any). Protein carryover: high.
+- [Soybean meal](https://isler404.github.io/apps/pawfood/ingredients/soybean-meal/): Ground soybeans left after oil extraction, a concentrated soy protein source. Family: Soy, Legumes / pulses (any). Protein carryover: high.
+- [Soy protein isolate](https://isler404.github.io/apps/pawfood/ingredients/soy-protein-isolate/): Concentrated soy protein. Family: Soy, Legumes / pulses (any). Protein carryover: high.
+- [Hydrolyzed soy protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-soy-protein/): Soy protein broken down into smaller peptides; used in some veterinary hydrolyzed diets. Family: Soy, Legumes / pulses (any). Protein carryover: reduced.
+- [Potato](https://isler404.github.io/apps/pawfood/ingredients/potato/): Potato, used as a carbohydrate source. Family: Potato. Protein carryover: high.
+- [Sweet potato](https://isler404.github.io/apps/pawfood/ingredients/sweet-potato/): Sweet potato, used as a carbohydrate and fiber source. Family: Sweet potato. Protein carryover: high.
+- [Tapioca](https://isler404.github.io/apps/pawfood/ingredients/tapioca/): Starch from cassava root; protein content is low. Family: Tapioca / cassava. Protein carryover: minimal.
+- [Alfalfa](https://isler404.github.io/apps/pawfood/ingredients/alfalfa/): Dried alfalfa (lucerne) leaves and stems, a legume forage used for fiber and nutrients. Family: none. Could be: Legumes / pulses (any). Protein carryover: reduced.
+
+### Plant oils and fibers
+
+- [Sunflower oil](https://isler404.github.io/apps/pawfood/ingredients/sunflower-oil/): Oil pressed from sunflower seeds, a source of omega-6 linoleic acid. Family: none. Protein carryover: minimal.
+- [Canola oil](https://isler404.github.io/apps/pawfood/ingredients/canola-oil/): Oil from canola (low-erucic rapeseed), a source of omega-6 and omega-3 fatty acids. Family: none. Protein carryover: minimal.
+- [Flaxseed](https://isler404.github.io/apps/pawfood/ingredients/flaxseed/): Flaxseed, a source of fiber and omega-3 alpha-linolenic acid. Family: Flaxseed (linseed). Protein carryover: high.
+- [Vegetable oil](https://isler404.github.io/apps/pawfood/ingredients/vegetable-oil/): Plant oil whose source plant is not stated; refined oils carry very little protein. Family: none. Could be: Soy, Corn (maize), Peanut, Coconut, Flaxseed (linseed). Protein carryover: minimal.
+- [Algal oil](https://isler404.github.io/apps/pawfood/ingredients/algal-oil/): Oil from microalgae, a source of DHA omega-3. Family: none. Protein carryover: minimal.
+- [Powdered cellulose](https://isler404.github.io/apps/pawfood/ingredients/powdered-cellulose/): Purified plant cellulose used as insoluble fiber. Family: none. Protein carryover: minimal.
+- [Beet pulp](https://isler404.github.io/apps/pawfood/ingredients/beet-pulp/): Fiber left after sugar extraction from sugar beets. Family: none. Protein carryover: minimal.
+- [Fructooligosaccharides](https://isler404.github.io/apps/pawfood/ingredients/fructooligosaccharides/): Short-chain fructose fibers used as a prebiotic. Family: none. Protein carryover: minimal.
+- [Psyllium husk](https://isler404.github.io/apps/pawfood/ingredients/psyllium/): Husk of psyllium seeds, a soluble fiber. Family: none. Protein carryover: minimal.
+
+### Amino acids and supplements
+
+- [Taurine](https://isler404.github.io/apps/pawfood/ingredients/taurine/): An amino sulfonic acid that is essential in the diet of cats. Family: none. Protein carryover: minimal.
+- [DL-methionine](https://isler404.github.io/apps/pawfood/ingredients/dl-methionine/): A source of the essential amino acid methionine. Family: none. Protein carryover: minimal.
+- [L-carnitine](https://isler404.github.io/apps/pawfood/ingredients/l-carnitine/): A nutrient involved in fat metabolism, added as a supplement. Family: none. Protein carryover: minimal.
+- [Glucosamine](https://isler404.github.io/apps/pawfood/ingredients/glucosamine/): A joint supplement usually made from shellfish shells or by fermentation; the source is rarely stated. Family: none. Could be: Shellfish (crustaceans, molluscs). Protein carryover: minimal.
+- [Chondroitin sulfate](https://isler404.github.io/apps/pawfood/ingredients/chondroitin-sulfate/): A joint supplement extracted from animal cartilage whose species is rarely stated. Family: none. Could be: Beef, Pork, Chicken, Poultry (any), Fish (any). Protein carryover: reduced.
+- [Choline chloride](https://isler404.github.io/apps/pawfood/ingredients/choline-chloride/): A source of choline, an essential nutrient. Family: none. Protein carryover: minimal.
+- [Menadione nicotinamide bisulfite](https://isler404.github.io/apps/pawfood/ingredients/menadione-nicotinamide-bisulfite/): A synthetic source of vitamin K activity. Family: none. Protein carryover: minimal.
+- [Alpha-lipoic acid](https://isler404.github.io/apps/pawfood/ingredients/alpha-lipoic-acid/): An antioxidant used in some supplements and foods. Family: none. Protein carryover: minimal.
+- [Brewers dried yeast](https://isler404.github.io/apps/pawfood/ingredients/brewers-dried-yeast/): Dried yeast from brewing, a source of protein and B vitamins; may carry traces of barley. Family: Yeast. Could be: Barley. Protein carryover: high.
+- [Yeast extract](https://isler404.github.io/apps/pawfood/ingredients/yeast-extract/): Soluble yeast contents used for flavour and nutrients. Family: Yeast. Protein carryover: reduced.
+- [Dried fermentation products](https://isler404.github.io/apps/pawfood/ingredients/dried-fermentation-products/): Dried microbial fermentation products whose organisms or media are not stated. Family: none. Could be: Yeast, Dairy (milk). Protein carryover: minimal.
+- [Yucca schidigera extract](https://isler404.github.io/apps/pawfood/ingredients/yucca-extract/): Extract of the Yucca schidigera plant, used to reduce stool odour. Family: none. Protein carryover: minimal.
+
+### Preservatives and antioxidants
+
+- [Mixed tocopherols](https://isler404.github.io/apps/pawfood/ingredients/mixed-tocopherols/): Natural vitamin E compounds used to keep fats from going rancid, often from vegetable oils. Family: none. Protein carryover: minimal.
+- [Rosemary extract](https://isler404.github.io/apps/pawfood/ingredients/rosemary-extract/): Rosemary extract used as a natural antioxidant. Family: none. Protein carryover: minimal.
+- [Citric acid](https://isler404.github.io/apps/pawfood/ingredients/citric-acid/): An acid used to preserve fats and adjust acidity. Family: none. Protein carryover: minimal.
+- [BHA](https://isler404.github.io/apps/pawfood/ingredients/bha/): Butylated hydroxyanisole, a synthetic antioxidant preservative. Family: none. Protein carryover: minimal.
+- [BHT](https://isler404.github.io/apps/pawfood/ingredients/bht/): Butylated hydroxytoluene, a synthetic antioxidant preservative. Family: none. Protein carryover: minimal.
+- [Ethoxyquin](https://isler404.github.io/apps/pawfood/ingredients/ethoxyquin/): A synthetic antioxidant preservative, also used in fish meal. Family: none. Protein carryover: minimal.
+- [TBHQ](https://isler404.github.io/apps/pawfood/ingredients/tbhq/): Tertiary butylhydroquinone, a synthetic antioxidant preservative. Family: none. Protein carryover: minimal.
+- [Potassium sorbate](https://isler404.github.io/apps/pawfood/ingredients/potassium-sorbate/): A mould inhibitor used in moist foods and treats. Family: none. Protein carryover: minimal.
+- [Sodium benzoate](https://isler404.github.io/apps/pawfood/ingredients/sodium-benzoate/): Benzoic acid or its salt, a preservative to which cats are sensitive. Family: none. Protein carryover: minimal.
+- [Propylene glycol](https://isler404.github.io/apps/pawfood/ingredients/propylene-glycol/): A humectant used in some semi-moist dog foods and treats. Family: none. Protein carryover: minimal.
+
+### Flavors, colors and thickeners
+
+- [Natural flavor](https://isler404.github.io/apps/pawfood/ingredients/natural-flavor/): Non-specific flavouring that may be derived from animal or plant sources. Family: none. Could be: Chicken, Turkey, Duck, Poultry (any), Beef, Pork, Lamb / sheep, Fish (any), Salmon, Tuna, Dairy (milk), Egg, Yeast, Wheat, Soy, Corn (maize). Protein carryover: unknown.
+- [Hydrolyzed vegetable protein](https://isler404.github.io/apps/pawfood/ingredients/hydrolyzed-vegetable-protein/): Plant protein broken down into a savory flavouring; the plant is not always stated. Family: none. Could be: Soy, Wheat, Corn (maize), Pea. Protein carryover: reduced.
+- [Carrageenan](https://isler404.github.io/apps/pawfood/ingredients/carrageenan/): A thickener extracted from red seaweed, common in wet foods. Family: none. Protein carryover: minimal.
+- [Guar gum](https://isler404.github.io/apps/pawfood/ingredients/guar-gum/): A thickener from guar beans. Family: none. Protein carryover: minimal.
+- [Caramel color](https://isler404.github.io/apps/pawfood/ingredients/caramel-color/): Caramelized sugar used as a brown colour. Family: none. Protein carryover: minimal.
+- [Titanium dioxide](https://isler404.github.io/apps/pawfood/ingredients/titanium-dioxide/): A white mineral pigment used as a colour. Family: none. Protein carryover: minimal.
+- [Red 40](https://isler404.github.io/apps/pawfood/ingredients/red-40/): A synthetic red food dye. Family: none. Protein carryover: minimal.
+
+### Plants with species notes
+
+- [Garlic](https://isler404.github.io/apps/pawfood/ingredients/garlic/): Garlic or garlic powder, an Allium plant. Family: none. Protein carryover: minimal.
+- [Onion](https://isler404.github.io/apps/pawfood/ingredients/onion/): Onion or onion powder, an Allium vegetable. Family: none. Protein carryover: minimal.
+- [Grapes](https://isler404.github.io/apps/pawfood/ingredients/grapes/): Grapes or grape by-products. Family: none. Protein carryover: minimal.
+- [Cocoa](https://isler404.github.io/apps/pawfood/ingredients/cocoa/): Cocoa or chocolate, which contains theobromine and caffeine. Family: none. Protein carryover: minimal.
+- [Hops](https://isler404.github.io/apps/pawfood/ingredients/hops/): Hop flowers, used in brewing. Family: none. Protein carryover: minimal.
+- [Macadamia nuts](https://isler404.github.io/apps/pawfood/ingredients/macadamia-nuts/): Macadamia nuts, a tree nut. Family: Tree nuts. Protein carryover: high.
+- [Xylitol](https://isler404.github.io/apps/pawfood/ingredients/xylitol/): A sugar alcohol sweetener. Family: none. Protein carryover: minimal.
+- [Pumpkin](https://isler404.github.io/apps/pawfood/ingredients/pumpkin/): Pumpkin or winter squash, used as a vegetable and fiber source. Family: none. Protein carryover: minimal.
+
